@@ -1,0 +1,2257 @@
+{
+  "ok": "Được",
+  "cancel": "Hủy bỏ",
+  "error_alert_title": "Ối...",
+  "error_alert_text": "Đã xảy ra lỗi! Vui lòng thử lại.",
+  "token_expired_alert_title": "Phiên hết hạn!",
+  "token_expired_alert_text": "Vui lòng đăng nhập lại để tiếp tục.",
+  "login": "Đăng nhập",
+  "register": "Đăng ký",
+  "page_not_found": "Không tìm thấy trang",
+  "go_home": "Về nhà",
+  "logout": "Đăng xuất",
+  "email": "E-mail",
+  "remember_me": "Nhớ tôi",
+  "password": "Mật khẩu",
+  "forgot_password": "Quên mật khẩu?",
+  "confirm_password": "Xác nhận mật khẩu",
+  "Name": "Tên",
+  "toggle_navigation": "Chuyển đổi điều hướng thành",
+  "home": "Nhà",
+  "you_are_logged_in": "Bạn đã đăng nhập!",
+  "reset_password": "Đặt lại mật khẩu",
+  "send_password_reset_link": "Gửi link",
+  "settings": "Cài đặt",
+  "profile": "Hồ sơ",
+  "your_info": "Thông tin của bạn",
+  "info_updated": "Thông tin của bạn đã được cập nhật!",
+  "update": "Cập nhật",
+  "your_password": "Mật khẩu của bạn",
+  "password_updated": "Mật khẩu của bạn đã được cập nhật!",
+  "new_password": "mật khẩu mới",
+  "login_with": "Đăng nhập với",
+  "register_with": "Đăng ký với",
+  "verify_email": "Xác nhận Email",
+  "send_verification_link": "Gửi liên kết xác minh",
+  "resend_verification_link": "Gửi lại liên kết xác minh?",
+  "failed_to_verify_email": "Không xác minh được email.",
+  "verify_email_address": "Chúng tôi đã gửi cho bạn một email có liên kết xác minh.",
+  "reset_email_text": "Vui lòng nhập email của bạn để lấy liên kết đặt lại mật khẩu!",
+  "sorry": "Xin lỗi",
+  "no_data_found": "Không tìm thấy dữ liệu nào",
+  "login_txt": "Vui lòng đăng nhập để tiếp tục phiên của bạn!",
+  "email_placeholder": "nhập địa chỉ email của bạn",
+  "password_placeholder": "Nhập mật khẩu của bạn",
+  "developed_by": "Được phát triển bởi",
+  "per_page": "Trên một trang",
+  "available": "Có sẵn",
+  "common": {
+    "to": "Đến",
+    "from": "Từ",
+    "s_no": "#",
+    "more_info": "Thêm thông tin",
+    "name": "Tên",
+    "name_placeholder": "Nhập tên",
+    "password": "Mật khẩu",
+    "password_placeholder": "Nhập mật khẩu của bạn",
+    "code": "Mã số",
+    "code_placeholder": "Nhập mã",
+    "product_name": "tên sản phẩm",
+    "product_name_placeholder": "chọn một sản phẩm",
+    "sub_category_code": "Mã danh mục phụ",
+    "sub_category": "Hạng mục phụ",
+    "sub_category_name": "Tên hạng mục phụ",
+    "category": "Loại",
+    "category_name": "tên danh mục",
+    "category_name_placeholder": "Chọn một danh mục",
+    "account": "Tài khoản",
+    "account_placeholder": "Chọn một tài khoản",
+    "available_balance": "Số dư khả dụng",
+    "amount": "Số lượng",
+    "amount_placeholder": "Nhập một số tiền",
+    "cheque_no": "Kiểm tra không.",
+    "cheque_placeholder": "Nhập số séc",
+    "voucher_no": "Phiếu quà tặng",
+    "voucher_placeholder": "Nhập số phiếu thưởng",
+    "receipt_no": "Biên nhận số",
+    "receipt_no_placeholder": "Nhập biên lai không",
+    "date": "Ngày",
+    "note": "Ghi chú",
+    "created_by": "Được tạo bởi",
+    "choose_file": "Chọn tập tin",
+    "image_alt": "Hình ảnh kèm theo",
+    "note_placeholder": "Viết ghi chú của bạn ở đây!",
+    "status": "Trạng thái",
+    "action": "Hoạt động",
+    "active": "Tích cực",
+    "in_active": "Không hoạt động",
+    "expired": "Hết hạn",
+    "email": "E-mail",
+    "email_placeholder": "nhập địa chỉ email của bạn",
+    "phone": "Điện thoại",
+    "address": "Địa chỉ nhà",
+    "address_placeholder": "Nhập địa chỉ",
+    "modal_header": "Xem trước hình ảnh đính kèm",
+    "modal_body": "Nội dung mặc định",
+    "export_table": "Bảng xuất khẩu",
+    "print_table": "Bảng in",
+    "delete_title": "Bạn có chắc không?",
+    "delete_confirm_text": "Bạn có chắc không?",
+    "deleted": "Đã xóa!",
+    "delete_success": "Đã xoá thành công.",
+    "failed": "Thất bại!",
+    "delete_failed": "Có điều gì đó không ổn.",
+    "error_msg": "Rất tiếc ... đã xảy ra lỗi 😔",
+    "image_error": "Vui lòng chọn một hình thu nhỏ hợp lệ có kích thước nhỏ hơn 2 MB",
+    "close": "Đóng",
+    "search": "Tìm kiếm...",
+    "create": "Tạo ra",
+    "view": "Lượt xem",
+    "edit": "Chỉnh sửa",
+    "delete": "Xóa bỏ",
+    "image": "Hình ảnh",
+    "preview": "Xem trước",
+    "no_preview": "Không xem trước",
+    "save": "Tiết kiệm",
+    "save_changes": "Lưu thay đổi",
+    "back": "Mặt sau",
+    "print": "In",
+    "reset": "Cài lại",
+    "supplier": "Nhà cung cấp",
+    "supplier_placeholder": "Chọn nhà cung cấp",
+    "products": "Các sản phẩm",
+    "select_products": "Chọn sản phẩm",
+    "select_products_placeholder": "Tìm kiếm sản phẩm",
+    "reference": "Tài liệu tham khảo",
+    "reference_placeholder": "Nhập tài liệu tham khảo",
+    "quantity": "Số lượng",
+    "purchase_price": "Giá mua",
+    "unit_price": "Đơn giá",
+    "unit_cost": "Đơn giá",
+    "unit_tax": "Thuế đơn vị",
+    "tax": "Thuế",
+    "subtotal": "Tổng phụ",
+    "return_subtotal": "Trả lại Tổng phụ",
+    "new_subtotal": "Tổng phụ mới",
+    "return_amount": "Số tiền trả lại",
+    "return_cost": "Chi phí trả lại sản phẩm",
+    "total": "Tổng cộng",
+    "net_total": "Tổng thực",
+    "due": "Quá hạn",
+    "transport": "Vận chuyển",
+    "add_payment": "Thêm thanh toán?",
+    "add_payment_placeholder": "Chọn một tùy chọn",
+    "yes": "Đúng",
+    "no": "Không",
+    "paid": "Trả",
+    "total_paid": "Tổng số chi trả",
+    "paid_amount": "Số tiền thanh toán",
+    "paid_amount_placeholder": "Nhập một số tiền",
+    "total_due": "Tổng đến hạn",
+    "account_receivable": "Tài khoản phải thu",
+    "account_payable": "Tài khoản phải trả",
+    "total_price": "Tổng giá",
+    "return_price": "Giá trả lại",
+    "price": "Giá bán",
+    "total_return": "Bắt đầu lại từ đầu",
+    "discount": "Miễn giảm",
+    "discount_placeholder": "Nhập chiết khấu",
+    "supplier_details": "Thông tin chi tiết về nhà cung cấp",
+    "client_details": "Chi tiết khách hàng",
+    "supplier_id": "ID nhà cung cấp",
+    "client_id": "ID khách hàng",
+    "client_name": "Tên khách hàng",
+    "supplier_name": "tên đệm",
+    "company_name": "Tên công ty",
+    "company_name_placeholder": "Nhập tên công ty",
+    "contact_number": "Số liên lạc",
+    "contact_number_placeholder": "Nhập số liên lạc",
+    "payment_history": "Lịch sử thanh toán",
+    "payment_date": "Ngày thanh toán",
+    "empty_payment": "Chưa có khoản thanh toán nào!",
+    "empty_payment_msg": "Bạn không / không thêm bất kỳ khoản thanh toán nào cho giao dịch mua này. Sau khi thêm các khoản thanh toán, bạn sẽ thấy danh sách ở đây.",
+    "purchases": "Mua hàng",
+    "purchases_placeholder": "Chọn mua hàng",
+    "total_tax": "Tổng thuế",
+    "invoice_tax": "Thuế hóa đơn",
+    "transport_cost": "Phí vận chuyển",
+    "transport_cost_placeholder": "Nhập chi phí vận chuyển",
+    "total_discount": "Tổng khấu trừ",
+    "discount_type": "Loại giảm giá",
+    "fixed": "đã sửa",
+    "percentage": "Phần trăm",
+    "client": "Khách hàng",
+    "client_placeholder": "Chọn một khách hàng",
+    "payment_terms": "Điều khoản thanh toán",
+    "payment_terms_placeholder": "Nhập điều khoản thanh toán",
+    "po_reference": "Tham khảo PO",
+    "po_reference_placeholder": "Nhập tham chiếu PO",
+    "invoice_qty": "Số lượng hóa đơn",
+    "current_qty": "Số lượng hiện tại",
+    "return_qty": "Trả lại số lượng",
+    "invoices": "Hóa đơn",
+    "invoices_placeholder": "Chọn một hóa đơn",
+    "return_reason": "Lý do trở lại",
+    "return_reason_placeholder": "Nhập lý do",
+    "invoice_due": "Hóa đơn đến hạn",
+    "non_invoice_due": "Không có hóa đơn đến hạn",
+    "invoice_date": "Ngày lập hóa đơn",
+    "invoice_no": "Hóa đơn không có",
+    "invoice_return_no": "Hóa đơn trả lại Không",
+    "return_no": "Trả lại Không",
+    "return_products": "Trả lại sản phẩm",
+    "insufficient_stock": "Không đủ hàng",
+    "invoice_products": "Sản phẩm hóa đơn",
+    "created_at": "Được tạo lúc",
+    "reason": "Lý do",
+    "type": "Loại hình",
+    "credit": "Tín dụng",
+    "debit": "Ghi nợ",
+    "payment_type": "Hình thức thanh toán",
+    "invoice_total": "Tổng hóa đơn",
+    "invoice_details": "Chi tiết hóa đơn",
+    "payment_details": "Chi tiết thanh toán",
+    "ref_no": "Tham khảo Không",
+    "reference_no": "tài liệu tham khảo số",
+    "payable": "Phải trả",
+    "interest": "Quan tâm",
+    "installment": "Trả góp",
+    "error": "Lỗi!",
+    "per": "Mỗi",
+    "day": "Ngày",
+    "month": "Tháng",
+    "year": "Năm",
+    "daily": "Hằng ngày",
+    "monthly": "Hàng tháng",
+    "yearly": "Hàng năm",
+    "employee": "Nhân viên",
+    "employee_placeholder": "Chọn một nhân viên",
+    "designation": "Chỉ định",
+    "designation_placeholder": "Nhập một chỉ định",
+    "emp_name": "Tên trống",
+    "emp_id": "ID trống",
+    "employee_details": "Thông tin nhân viên",
+    "department": "Phòng",
+    "department_placeholder": "Phòng",
+    "balance": "THĂNG BẰNG",
+    "salary": "Lương",
+    "salary_placeholder": "Nhập lương",
+    "profile_picture": "Ảnh đại diện",
+    "role": "Vai diễn",
+    "role_placeholder": "Chọn một vai trò",
+    "unit": "Đơn vị",
+    "unit_placeholder": "Chọn một đơn vị",
+    "brand": "Nhãn hiệu",
+    "brand_placeholder": "Chọn một thương hiệu",
+    "item_code": "Mã hàng",
+    "item_code_placeholder": "Nhập mã hàng",
+    "item_model": "Mô hình mặt hàng",
+    "item_model_placeholder": "Nhập một mô hình",
+    "item_name": "Tên mục",
+    "item_name_placeholder": "Nhập tên",
+    "rendering_fails": "Kết xuất không thành công.",
+    "product": "Sản phẩm",
+    "transactions": "Giao dịch",
+    "empty_table": "Xin lỗi, không tìm thấy dữ liệu",
+    "stock_alert_msg": "Cổ phiếu ít hơn số lượng cảnh báo!",
+    "stock_notification": "(Các) Cảnh báo Số lượng Sản phẩm",
+    "stock_notification_empty": "Không có thông báo",
+    "delete_warning": "Bạn sẽ không thể trở lại điều này!",
+    "add_balance": "Thêm số dư",
+    "remove_balance": "Xóa số dư",
+    "qty": "Qty",
+    "item": "Mục",
+    "sold_by": "Được bán bởi"
+  },
+  "topbar": {
+    "new_invoice": "Hóa đơn mới",
+    "new_expense": "Chi phí mới",
+    "new_purchase": "Mua mới",
+    "new_quotation": "Báo giá mới",
+    "profile": "Hồ sơ",
+    "setup": "Thành lập",
+    "logout": "Đăng xuất"
+  },
+  "sidebar": {
+    "dashboard": "bảng điều khiển",
+    "activities": "CÁC HOẠT ĐỘNG",
+    "expenses": "Chi phí",
+    "categories": "Thể loại",
+    "sub_categories": "Danh mục phụ",
+    "expenses_list": "Danh sách chi phí",
+    "purchases": "Mua hàng",
+    "purchases_list": "Danh sách mua hàng",
+    "returns_list": "Danh sách trả hàng",
+    "sales": "Việc bán hàng",
+    "quotations_list": "Danh sách báo giá",
+    "invoices_list": "Danh sách hóa đơn",
+    "accounting": "KẾ TOÁN",
+    "cashbook": "Sổ tiền mặt",
+    "accounts": "Tài khoản",
+    "balance_adjustments": "Điều chỉnh số dư",
+    "balance_transfers": "Chuyển số dư",
+    "transaction_history": "Lịch sử giao dịch",
+    "payments": "Thanh toán",
+    "suppliers": "Các nhà cung cấp",
+    "non_purchase": "Không mua",
+    "purchase": "Mua, tựa vào, bám vào",
+    "clients": "Khách hàng",
+    "non_invoice": "Không có hóa đơn",
+    "invoice": "Hóa đơn",
+    "loan_management": "Quản lý khoản vay",
+    "authorities": "Cơ quan chức năng",
+    "loans": "Cho vay",
+    "asset_management": "Quản lý tài sản",
+    "types": "Các loại",
+    "assets": "Tài sản",
+    "payroll": "Lương bổng",
+    "people": "MỌI NGƯỜI",
+    "employees_list": "Danh sách nhân viên",
+    "employees": "Người lao động",
+    "departments": "Các phòng ban",
+    "increments": "Gia tăng",
+    "product": "SẢN PHẨM",
+    "products": "Các sản phẩm",
+    "products_list": "Danh sách sản phẩm",
+    "barcode": "Mã vạch",
+    "inventory_uppercase": "HÀNG TỒN KHO",
+    "inventory": "Hàng tồn kho",
+    "view_inventory": "Xem khoảng không quảng cáo",
+    "inventory_adjustment": "Điều chỉnh hàng tồn kho",
+    "reports": "BÁO CÁO",
+    "balance_sheet": "Bảng cân đối kế toán",
+    "summary_report": "Báo cáo tổng hợp",
+    "profit_loss_report": "Báo cáo lãi / lỗ",
+    "expense_report": "Báo cáo chi tiêu",
+    "product_report": "Báo cáo mặt hàng",
+    "inventory_report": "Báo cáo hàng tồn kho",
+    "account": "TÀI KHOẢN",
+    "account_sm": "Tài khoản",
+    "setup": "Thành lập",
+    "database_backup": "Sao lưu cơ sở dữ liệu",
+    "profile": "Hồ sơ",
+    "logout": "Đăng xuất"
+  },
+  "dashboard": {
+    "stock_alert": "Cảnh báo hàng tồn kho",
+    "recent_activities": "Hoạt động gần đây",
+    "page_title": "bảng điều khiển",
+    "breadcrumbs_current": "bảng điều khiển",
+    "breadcrumbs_active": "bảng điều khiển",
+    "bar_chart_title": "Bán hàng so với Mua hàng",
+    "bar_chart_tooltip": "Hàng tháng bán & mua hàng sau khi trừ giá vốn của sản phẩm đổi trả.",
+    "pie_chart_title": "Sản phẩm bán chạy nhất",
+    "line_chart_title": "Thanh toán đã gửi so với Thanh toán đã nhận",
+    "line_chart_tooltip": "Thanh toán đã gửi = Thanh toán cho nhà cung cấp + Thanh toán khoản vay<br/> Thanh toán đã nhận = Thanh toán của khách hàng + Khoản vay đã nhận",
+    "top_clients_title": "5 khách hàng hàng đầu",
+    "summary": "Bản tóm tắt",
+    "summary_option_1": "Hôm nay",
+    "summary_option_2": "7 ngày qua",
+    "summary_option_3": "Tháng này",
+    "summary_option_4": "Năm nay",
+    "summery_items": {
+      "purchase": "Mua, tựa vào, bám vào",
+      "purchase_return": "Mua hàng trả lại",
+      "sales": "Việc bán hàng",
+      "sales_return": "Lợi nhuận bán hàng",
+      "payment_recevied": "Thanh toán cho Khách hàng",
+      "payment_sent": "Thanh toán nhà cung cấp",
+      "expense": "Chi phí",
+      "balance_transfers": "Chuyển số dư"
+    }
+  },
+  "expenses": {
+    "categories": {
+      "index": {
+        "page_title": "Hạng mục Chi phí",
+        "breadcrumbs_current": "Hạng mục Chi phí",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Chi phí",
+        "breadcrumbs_active": "Thể loại",
+        "delete_warning": "Tất cả các danh mục phụ cho danh mục này sẽ bị xóa!"
+      },
+      "create": {
+        "page_title": "Tạo danh mục chi phí",
+        "form_title": "Tạo một danh mục chi phí",
+        "breadcrumbs_current": "Tạo danh mục chi phí",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Thể loại",
+        "breadcrumbs_active": "Tạo ra",
+        "success_msg": "Đã thêm danh mục thành công 👍"
+      },
+      "edit": {
+        "page_title": "Chỉnh sửa danh mục chi phí",
+        "form_title": "Chỉnh sửa danh mục",
+        "breadcrumbs_current": "Chỉnh sửa danh mục chi phí",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Thể loại",
+        "breadcrumbs_active": "Chỉnh sửa",
+        "success_msg": "Đã cập nhật danh mục thành công 👍"
+      }
+    },
+    "sub_categories": {
+      "index": {
+        "page_title": "Danh mục phụ chi phí",
+        "breadcrumbs_current": "Danh mục phụ chi phí",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Chi phí",
+        "breadcrumbs_active": "Danh mục phụ",
+        "delete_warning": "Tất cả các chi phí cho hạng mục này sẽ bị xóa!"
+      },
+      "create": {
+        "page_title": "Tạo danh mục phụ chi phí",
+        "form_title": "Tạo một danh mục phụ chi phí",
+        "breadcrumbs_current": "Tạo danh mục phụ chi phí",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Danh mục phụ",
+        "breadcrumbs_active": "Tạo ra",
+        "success_msg": "Đã thêm danh mục phụ thành công 👍"
+      },
+      "edit": {
+        "page_title": "Chỉnh sửa danh mục phụ chi phí",
+        "form_title": "Chỉnh sửa danh mục phụ chi phí",
+        "breadcrumbs_current": "Chỉnh sửa danh mục phụ chi phí",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Danh mục phụ",
+        "breadcrumbs_active": "Chỉnh sửa",
+        "success_msg": "Đã cập nhật danh mục phụ thành công 👍"
+      }
+    },
+    "list": {
+      "common": {
+        "expense_reason": "Lý do chi phí",
+        "expense_reason_placeholder": "Nhập lý do"
+      },
+      "index": {
+        "page_title": "Chi phí",
+        "breadcrumbs_current": "Chi phí",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Chi phí",
+        "breadcrumbs_active": "",
+        "delete_warning": "Bạn sẽ không thể trở lại điều này!"
+      },
+      "create": {
+        "page_title": "Tạo chi phí",
+        "form_title": "Tạo một khoản chi phí",
+        "breadcrumbs_current": "Tạo chi phí",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Chi phí",
+        "breadcrumbs_active": "Tạo ra",
+        "success_msg": "Đã thêm chi phí thành công 👍"
+      },
+      "edit": {
+        "page_title": "Chỉnh sửa chi phí",
+        "form_title": "Chỉnh sửa chi phí",
+        "breadcrumbs_current": "Chỉnh sửa chi phí",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Chi phí",
+        "breadcrumbs_active": "Chỉnh sửa",
+        "success_msg": "Đã cập nhật chi phí thành công 👍"
+      },
+      "view": {
+        "page_title": "Chi tiết chi phí",
+        "breadcrumbs_current": "Chi tiết chi phí",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Chi phí",
+        "breadcrumbs_active": "Thông tin chi tiết",
+        "expense_details": "Chi tiết chi phí"
+      }
+    }
+  },
+  "purchases": {
+    "list": {
+      "common": {
+        "po_reference": "Tham khảo PO",
+        "po_reference_placeholder": "Nhập tham chiếu PO",
+        "payment_terms": "Điều khoản thanh toán",
+        "payment_terms_placeholder": "Nhập điều khoản thanh toán",
+        "purchase_tax": "Thuế mua hàng",
+        "purchase_total": "Tổng số lần mua",
+        "purchase_subtotal": "Tổng phụ mua hàng",
+        "purchase_tax_placeholder": "Chọn loại thuế",
+        "total_tax": "Tổng thuế",
+        "discount": "Miễn giảm",
+        "discount_placeholder": "Nhập chiết khấu",
+        "transport_cost": "Phí vận chuyển",
+        "transport_cost_placeholder": "Nhập chi phí vận chuyển",
+        "purchase_date": "Ngày mua",
+        "po_date": "Ngày PO",
+        "purchased_qty": "Số lượng đã mua",
+        "returned_qty": "Số lượng trả lại",
+        "current_qty": "Số lượng hiện tại",
+        "purchase_no": "Mua hàng Không",
+        "return_no": "Trả lại Không",
+        "purchase_no_placeholder": "Nhập mua không",
+        "purchase_products": "Mua sản phẩm",
+        "purchase_due": "Mua hàng đến hạn"
+      },
+      "index": {
+        "page_title": "Mua hàng",
+        "breadcrumbs_current": "Mua hàng",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Mua hàng",
+        "breadcrumbs_active": "Mua hàng",
+        "delete_warning": "Bạn sẽ không thể trở lại điều này!"
+      },
+      "create": {
+        "page_title": "Tạo giao dịch mua",
+        "form_title": "Tạo giao dịch mua",
+        "breadcrumbs_current": "Tạo giao dịch mua",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Mua hàng",
+        "breadcrumbs_active": "Tạo ra",
+        "success_msg": "Đã thêm giao dịch mua thành công 👍"
+      },
+      "edit": {
+        "page_title": "Chỉnh sửa giao dịch mua",
+        "form_title": "Chỉnh sửa giao dịch mua",
+        "breadcrumbs_current": "Chỉnh sửa giao dịch mua",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Mua hàng",
+        "breadcrumbs_active": "Chỉnh sửa",
+        "success_msg": "Đã cập nhật giao dịch mua thành công 👍"
+      },
+      "view": {
+        "page_title": "Chi tiết mua hàng",
+        "breadcrumbs_current": "Chi tiết mua hàng",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Mua hàng",
+        "breadcrumbs_active": "Thông tin chi tiết"
+      }
+    },
+    "returns": {
+      "common": {
+        "return_reason": "Lý do trở lại",
+        "return_reason_placeholder": "Nhập lý do",
+        "return_date": "Ngày trở lại",
+        "purchase_return_no": "Mua hàng Trả lại Không",
+        "return_products": "Trả lại sản phẩm"
+      },
+      "index": {
+        "page_title": "Mua hàng trả lại",
+        "breadcrumbs_current": "Mua hàng trả lại",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Mua hàng",
+        "breadcrumbs_active": "Mua hàng trả lại",
+        "delete_warning": "Bạn sẽ không thể trở lại điều này!"
+      },
+      "create": {
+        "page_title": "Tạo lợi tức mua hàng",
+        "form_title": "Tạo lợi nhuận mua hàng",
+        "breadcrumbs_current": "Tạo lợi tức mua hàng",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Mua hàng trả lại",
+        "breadcrumbs_active": "Tạo ra",
+        "success_msg": "Đã thêm đơn hàng trả lại thành công 👍"
+      },
+      "edit": {
+        "page_title": "Chỉnh sửa lợi tức mua hàng",
+        "form_title": "Chỉnh sửa trả lại hàng mua",
+        "breadcrumbs_current": "Chỉnh sửa lợi tức mua hàng",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Mua hàng trả lại",
+        "breadcrumbs_active": "Chỉnh sửa",
+        "success_msg": "Đã cập nhật lợi nhuận mua hàng thành công 👍"
+      },
+      "view": {
+        "page_title": "Chi tiết Trả lại Mua hàng",
+        "breadcrumbs_current": "Chi tiết Trả lại Mua hàng",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Mua hàng trả lại",
+        "breadcrumbs_active": "Thông tin chi tiết"
+      }
+    }
+  },
+  "sales": {
+    "common": {
+      "quotation_no": "Báo giá số",
+      "quotation_date": "Ngày báo giá",
+      "delivery_place": "Nơi giao hàng",
+      "delivery_place_placeholder": "Nhập địa điểm giao hàng",
+      "quotation_tax": "Thuế báo giá",
+      "quotation_tax_placeholder": "Chọn loại thuế",
+      "return_date": "Ngày trở lại",
+      "new_due": "Đến hạn mới",
+      "client_advance": "Ứng trước cho khách hàng",
+      "invoice_total": "Tổng hóa đơn",
+      "before_return": "Trước khi trở lại",
+      "invoice_return": "Trả lại hóa đơn",
+      "invoice_tax": "Thuế hóa đơn",
+      "invoice_tax_placeholder": "Chọn loại thuế"
+    },
+    "quotations": {
+      "index": {
+        "page_title": "Báo giá",
+        "create_invoice": "Tạo hóa đơn",
+        "breadcrumbs_current": "Báo giá",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Báo giá",
+        "breadcrumbs_active": "",
+        "delete_warning": "Bạn sẽ không thể trở lại điều này!",
+        "delete_failed": "Xin lỗi bạn không thể xóa báo giá này!"
+      },
+      "create": {
+        "page_title": "Tạo báo giá",
+        "form_title": "Tạo báo giá",
+        "breadcrumbs_current": "Tạo báo giá",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Báo giá",
+        "breadcrumbs_active": "Tạo ra",
+        "success_msg": "Đã thêm báo giá thành công 👍"
+      },
+      "edit": {
+        "page_title": "Chỉnh sửa Báo giá",
+        "form_title": "Chỉnh sửa báo giá",
+        "breadcrumbs_current": "Chỉnh sửa Báo giá",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Báo giá",
+        "breadcrumbs_active": "Chỉnh sửa",
+        "success_msg": "Đã cập nhật báo giá thành công 👍"
+      },
+      "view": {
+        "page_title": "Chi tiết Báo giá",
+        "breadcrumbs_current": "Chi tiết Báo giá",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Báo giá",
+        "breadcrumbs_active": "Thông tin chi tiết",
+        "expense_details": "Chi tiết chi phí"
+      },
+      "invoice": {
+        "page_title": "Báo giá cho hóa đơn",
+        "form_title": "Tạo báo giá cho hóa đơn",
+        "breadcrumbs_current": "Báo giá cho hóa đơn",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Báo giá",
+        "breadcrumbs_active": "Tạo ra",
+        "success_msg": "Hóa đơn đã được tạo thành công 👍"
+      }
+    },
+    "invoices": {
+      "index": {
+        "page_title": "Hóa đơn",
+        "breadcrumbs_current": "Hóa đơn",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Việc bán hàng",
+        "breadcrumbs_active": "Hóa đơn",
+        "delete_warning": "Bạn sẽ không thể trở lại điều này!",
+        "delete_failed": "Xin lỗi, bạn không thể xóa hóa đơn này!"
+      },
+      "create": {
+        "page_title": "Tạo hóa đơn",
+        "form_title": "Tạo hóa đơn",
+        "breadcrumbs_current": "Tạo hóa đơn",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Hóa đơn",
+        "breadcrumbs_active": "Tạo ra",
+        "success_msg": "Hóa đơn đã được thêm thành công 👍"
+      },
+      "edit": {
+        "page_title": "Chỉnh sửa hóa đơn",
+        "form_title": "Chỉnh sửa hóa đơn",
+        "breadcrumbs_current": "Chỉnh sửa hóa đơn",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Hóa đơn",
+        "breadcrumbs_active": "Chỉnh sửa",
+        "success_msg": "Đã cập nhật hóa đơn thành công 👍"
+      },
+      "view": {
+        "page_title": "Chi tiết hóa đơn",
+        "breadcrumbs_current": "Chi tiết hóa đơn",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Hóa đơn",
+        "breadcrumbs_active": "Thông tin chi tiết",
+        "invoice_details": "Chi tiết hóa đơn"
+      }
+    },
+    "returns": {
+      "index": {
+        "page_title": "Trả lại hóa đơn",
+        "breadcrumbs_current": "Trả lại hóa đơn",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Hóa đơn",
+        "breadcrumbs_active": "Trả lại hóa đơn",
+        "delete_warning": "Bạn sẽ không thể trở lại điều này!",
+        "delete_failed": "Có điều gì đó không ổn."
+      },
+      "create": {
+        "page_title": "Tạo hóa đơn trả lại",
+        "form_title": "Tạo hóa đơn trả lại",
+        "breadcrumbs_current": "Tạo hóa đơn trả lại",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Trả lại hóa đơn",
+        "breadcrumbs_active": "Tạo ra",
+        "success_msg": "Đã thêm trả lại hóa đơn thành công 👍"
+      },
+      "edit": {
+        "page_title": "Chỉnh sửa trả lại hóa đơn",
+        "form_title": "Chỉnh sửa hóa đơn trả lại",
+        "breadcrumbs_current": "Chỉnh sửa trả lại hóa đơn",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Trả lại hóa đơn",
+        "breadcrumbs_active": "Chỉnh sửa",
+        "success_msg": "Đã cập nhật hoàn trả hóa đơn thành công 👍"
+      },
+      "view": {
+        "page_title": "Chi tiết trả lại hóa đơn",
+        "breadcrumbs_current": "Chi tiết trả lại hóa đơn",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Trả lại hóa đơn",
+        "breadcrumbs_active": "Thông tin chi tiết",
+        "invoice_details": "Chi tiết hóa đơn"
+      }
+    }
+  },
+  "cashbook": {
+    "common": {
+      "account_number": "Số tài khoản",
+      "account_number_placeholder": "Nhập số tài khoản",
+      "branch_name": "Tên chi nhánh",
+      "branch_name_placeholder": "Nhập tên chi nhánh",
+      "bank_name": "Tên ngân hàng",
+      "bank_name_placeholder": "Nhập tên ngân hàng",
+      "transactions": "Giao dịch",
+      "account_details": "Chi tiết tài khoản",
+      "total_transactions": "Tổng số giao dịch",
+      "debit_amount": "Số tiền ghi nợ",
+      "credit_amount": "Số tiền tín dụng",
+      "from_account": "Từ tài khoản",
+      "to_account": "Tính toán",
+      "transfer_reason": "Lý do chuyển nhượng"
+    },
+    "accounts": {
+      "index": {
+        "page_title": "Tài khoản",
+        "breadcrumbs_current": "Tài khoản",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Sổ quỹ",
+        "breadcrumbs_third": "Tài khoản",
+        "breadcrumbs_active": "Tài khoản",
+        "delete_warning": "Bạn sẽ không thể trở lại điều này!",
+        "delete_failed": "Xin lỗi, bạn không thể xóa tài khoản này!"
+      },
+      "create": {
+        "page_title": "Tạo tài khoản",
+        "form_title": "Tạo một tài khoản",
+        "breadcrumbs_current": "Tạo tài khoản",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Sổ quỹ",
+        "breadcrumbs_third": "Tài khoản",
+        "breadcrumbs_active": "Tạo ra",
+        "success_msg": "Đã thêm tài khoản thành công 👍"
+      },
+      "edit": {
+        "page_title": "Chỉnh sửa tài khoản",
+        "form_title": "Chỉnh sửa tài khoản",
+        "breadcrumbs_current": "Chỉnh sửa tài khoản",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Sổ quỹ",
+        "breadcrumbs_third": "Tài khoản",
+        "breadcrumbs_active": "Chỉnh sửa",
+        "success_msg": "Đã cập nhật tài khoản thành công 👍"
+      },
+      "view": {
+        "page_title": "Giao dịch tài khoản",
+        "breadcrumbs_current": "Giao dịch tài khoản",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Tài khoản",
+        "breadcrumbs_active": "Giao dịch",
+        "empty_transaction": "Chưa có giao dịch nào!",
+        "empty_transaction_msg": "Bạn chưa thực hiện bất kỳ giao dịch nào bằng tài khoản này. Sau khi thực hiện giao dịch bạn sẽ thấy danh sách tại đây."
+      }
+    },
+    "balances": {
+      "index": {
+        "page_title": "Điều chỉnh số dư",
+        "add_balance": "Tạo ra",
+        "breadcrumbs_current": "Điều chỉnh số dư",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Sổ quỹ",
+        "breadcrumbs_active": "Điều chỉnh",
+        "delete_warning": "Bạn sẽ không thể trở lại điều này!",
+        "delete_failed": "Xin lỗi bạn không thể xóa giao dịch này"
+      },
+      "create": {
+        "page_title": "Tạo điều chỉnh",
+        "form_title": "Tạo điều chỉnh",
+        "breadcrumbs_current": "Tạo điều chỉnh",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Sổ quỹ",
+        "breadcrumbs_third": "Điều chỉnh",
+        "breadcrumbs_active": "Tạo ra",
+        "success_msg": "Đã thêm điều chỉnh thành công 👍"
+      },
+      "edit": {
+        "page_title": "Chỉnh sửa số dư",
+        "form_title": "Chỉnh sửa số dư",
+        "breadcrumbs_current": "Chỉnh sửa số dư",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Sổ quỹ",
+        "breadcrumbs_third": "Cân bằng",
+        "breadcrumbs_active": "Chỉnh sửa",
+        "success_msg": "Đã cập nhật số dư thành công 👍"
+      }
+    },
+    "transfers": {
+      "index": {
+        "page_title": "Chuyển số dư",
+        "add_transfer": "Thêm chuyển khoản",
+        "breadcrumbs_current": "Chuyển số dư",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Sổ quỹ",
+        "breadcrumbs_active": "Chuyển số dư",
+        "delete_warning": "Bạn sẽ không thể trở lại điều này!",
+        "delete_failed": "Xin lỗi bạn không thể xóa chuyển khoản này!"
+      },
+      "create": {
+        "page_title": "Tạo chuyển khoản",
+        "form_title": "Tạo chuyển khoản số dư",
+        "breadcrumbs_current": "Tạo chuyển khoản",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Sổ quỹ",
+        "breadcrumbs_third": "Chuyển số dư",
+        "breadcrumbs_active": "Tạo ra",
+        "success_msg": "Đã thêm chuyển khoản số dư thành công 👍"
+      },
+      "edit": {
+        "page_title": "Chỉnh sửa Chuyển khoản Số dư",
+        "form_title": "Chỉnh sửa chuyển số dư",
+        "breadcrumbs_current": "Chỉnh sửa Chuyển khoản Số dư",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Sổ quỹ",
+        "breadcrumbs_third": "Chuyển số dư",
+        "breadcrumbs_active": "Chỉnh sửa",
+        "success_msg": "Đã cập nhật chuyển khoản thành công 👍"
+      },
+      "view": {
+        "page_title": "Chi tiết Chuyển khoản Số dư",
+        "breadcrumbs_current": "Chi tiết Chuyển khoản",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Sổ quỹ",
+        "breadcrumbs_third": "Chuyển số dư",
+        "breadcrumbs_active": "Thông tin chi tiết"
+      }
+    },
+    "transactions": {
+      "index": {
+        "page_title": "Lịch sử giao dịch",
+        "breadcrumbs_current": "Lịch sử giao dịch",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Sổ quỹ",
+        "breadcrumbs_active": "Lịch sử"
+      }
+    }
+  },
+  "payments": {
+    "common": {
+      "due_paid": "Đã trả đến hạn",
+      "due_added": "Đã thêm đến hạn",
+      "current_due": "Hiện tại đã đến hạn",
+      "non_invoice_paid": "Không phải trả tiền bằng hóa đơn",
+      "non_invoice_total": "Tổng cộng không có hóa đơn",
+      "add_due": "Thêm thời hạn",
+      "add_payment": "Thêm thanh toán",
+      "total_payment": "Tổng tiền thanh toán",
+      "total_advance": "Tổng số tiền tạm ứng (Hoàn trả hóa đơn)",
+      "available_advance": "Ứng trước có sẵn (Mua hàng trả lại)",
+      "select_invoice": "Chọn hóa đơn",
+      "select_purchase": "Chọn mua hàng",
+      "select_purchase_placeholder": "Tìm kiếm số mua hàng",
+      "select_invoice_placeholder": "Tìm kiếm số hóa đơn",
+      "invoice_subtotal": "Tổng phụ của Hóa đơn",
+      "non_purchase_total": "Tổng số tiền không mua",
+      "non_purchase_due": "Không phải mua hàng đến hạn",
+      "non_purchase_paid": "Mua hàng không phải trả tiền",
+      "purchase_details": "Chi tiết mua hàng"
+    },
+    "clients": {
+      "invoice": {
+        "index": {
+          "page_title": "Thanh toán hóa đơn",
+          "breadcrumbs_current": "Thanh toán hóa đơn",
+          "breadcrumbs_first": "bảng điều khiển",
+          "breadcrumbs_second": "Thanh toán",
+          "breadcrumbs_active": "Thanh toán hóa đơn",
+          "delete_warning": "Bạn sẽ không thể trở lại điều này!",
+          "delete_failed": "Xin lỗi, bạn không thể xóa khoản thanh toán này!"
+        },
+        "create": {
+          "page_title": "Tạo thanh toán hóa đơn cho khách hàng",
+          "form_title": "Tạo hóa đơn thanh toán",
+          "breadcrumbs_current": "Tạo thanh toán",
+          "breadcrumbs_first": "bảng điều khiển",
+          "breadcrumbs_second": "Thanh toán",
+          "breadcrumbs_third": "Thanh toán hóa đơn",
+          "breadcrumbs_active": "Tạo ra",
+          "success_msg": "Đã thêm thanh toán hóa đơn thành công 👍"
+        },
+        "edit": {
+          "page_title": "Chỉnh sửa Thanh toán Hóa đơn của Khách hàng",
+          "form_title": "Chỉnh sửa thanh toán hóa đơn",
+          "breadcrumbs_current": "Chỉnh sửa Thanh toán",
+          "breadcrumbs_first": "bảng điều khiển",
+          "breadcrumbs_second": "Thanh toán",
+          "breadcrumbs_third": "Thanh toán hóa đơn",
+          "breadcrumbs_active": "Chỉnh sửa",
+          "success_msg": "Đã cập nhật thanh toán hóa đơn thành công 👍"
+        },
+        "view": {
+          "page_title": "Chi tiết Thanh toán Hóa đơn",
+          "breadcrumbs_current": "Chi tiết Thanh toán Hóa đơn",
+          "breadcrumbs_first": "bảng điều khiển",
+          "breadcrumbs_second": "Thanh toán",
+          "breadcrumbs_third": "Thanh toán hóa đơn",
+          "breadcrumbs_active": "Thông tin chi tiết"
+        }
+      },
+      "non_invoice": {
+        "index": {
+          "page_title": "Các khoản thanh toán không có hóa đơn của khách hàng",
+          "breadcrumbs_current": "Thanh toán không hóa đơn",
+          "breadcrumbs_first": "bảng điều khiển",
+          "breadcrumbs_second": "Thanh toán",
+          "breadcrumbs_active": "Thanh toán không hóa đơn",
+          "delete_warning": "Bạn sẽ không thể trở lại điều này!",
+          "delete_failed": "Xin lỗi, bạn không thể xóa khoản thanh toán này!"
+        },
+        "create": {
+          "page_title": "Tạo thanh toán không hóa đơn",
+          "form_title": "Tạo thanh toán không hóa đơn",
+          "breadcrumbs_current": "Tạo thanh toán",
+          "breadcrumbs_first": "bảng điều khiển",
+          "breadcrumbs_second": "Thanh toán",
+          "breadcrumbs_third": "Thanh toán không hóa đơn",
+          "breadcrumbs_active": "Tạo ra",
+          "success_msg": "Đã thêm thanh toán thành công 👍"
+        },
+        "edit": {
+          "page_title": "Chỉnh sửa trả lại hóa đơn",
+          "form_title": "Chỉnh sửa thanh toán không có hóa đơn",
+          "breadcrumbs_current": "Chỉnh sửa Thanh toán",
+          "breadcrumbs_first": "bảng điều khiển",
+          "breadcrumbs_second": "Thanh toán",
+          "breadcrumbs_third": "Thanh toán không hóa đơn",
+          "breadcrumbs_active": "Chỉnh sửa",
+          "success_msg": "Đã cập nhật thanh toán thành công 👍"
+        }
+      }
+    },
+    "suppliers": {
+      "purchase": {
+        "index": {
+          "page_title": "Thanh toán mua hàng",
+          "breadcrumbs_current": "Thanh toán mua hàng",
+          "breadcrumbs_first": "bảng điều khiển",
+          "breadcrumbs_second": "Thanh toán",
+          "breadcrumbs_active": "Thanh toán mua hàng",
+          "delete_warning": "Bạn sẽ không thể trở lại điều này!",
+          "delete_failed": "Có điều gì đó không ổn."
+        },
+        "create": {
+          "page_title": "Tạo Thanh toán Mua hàng cho Nhà cung cấp",
+          "form_title": "Tạo thanh toán mua hàng",
+          "breadcrumbs_current": "Tạo thanh toán",
+          "breadcrumbs_first": "bảng điều khiển",
+          "breadcrumbs_second": "Thanh toán",
+          "breadcrumbs_third": "Thanh toán mua hàng",
+          "breadcrumbs_active": "Tạo ra",
+          "success_msg": "Đã thêm thanh toán cho nhà cung cấp thành công 👍"
+        },
+        "edit": {
+          "page_title": "Chỉnh sửa Thanh toán Mua hàng của Nhà cung cấp",
+          "form_title": "Chỉnh sửa thanh toán mua hàng",
+          "breadcrumbs_current": "Chỉnh sửa Thanh toán",
+          "breadcrumbs_first": "bảng điều khiển",
+          "breadcrumbs_second": "Thanh toán",
+          "breadcrumbs_third": "Thanh toán mua hàng",
+          "breadcrumbs_active": "Chỉnh sửa",
+          "success_msg": "Đã cập nhật thanh toán thành công 👍"
+        },
+        "view": {
+          "page_title": "Chi tiết Thanh toán Mua hàng của Nhà cung cấp",
+          "breadcrumbs_current": "Chi tiết Thanh toán Mua hàng",
+          "breadcrumbs_first": "bảng điều khiển",
+          "breadcrumbs_second": "Thanh toán",
+          "breadcrumbs_third": "Thanh toán mua hàng",
+          "breadcrumbs_active": "Thông tin chi tiết"
+        }
+      },
+      "non_purchase": {
+        "index": {
+          "page_title": "Các khoản thanh toán cho nhà cung cấp không phải mua hàng",
+          "breadcrumbs_current": "Thanh toán không phải mua hàng",
+          "breadcrumbs_first": "bảng điều khiển",
+          "breadcrumbs_second": "Thanh toán",
+          "breadcrumbs_active": "Thanh toán không phải mua hàng",
+          "delete_warning": "Bạn sẽ không thể trở lại điều này!",
+          "delete_failed": "Xin lỗi, bạn không thể xóa khoản thanh toán này!"
+        },
+        "create": {
+          "page_title": "Tạo Thanh toán Không phải Mua hàng",
+          "form_title": "Tạo thanh toán không mua hàng",
+          "breadcrumbs_current": "Tạo thanh toán",
+          "breadcrumbs_first": "bảng điều khiển",
+          "breadcrumbs_second": "Thanh toán",
+          "breadcrumbs_third": "Thanh toán không phải mua hàng",
+          "breadcrumbs_active": "Tạo ra",
+          "success_msg": "Đã thêm thanh toán thành công 👍"
+        },
+        "edit": {
+          "page_title": "Chỉnh sửa Thanh toán Không phải Mua hàng",
+          "form_title": "Chỉnh sửa thanh toán không phải mua hàng",
+          "breadcrumbs_current": "Chỉnh sửa Thanh toán",
+          "breadcrumbs_first": "bảng điều khiển",
+          "breadcrumbs_second": "Thanh toán",
+          "breadcrumbs_third": "Thanh toán không phải mua hàng",
+          "breadcrumbs_active": "Chỉnh sửa",
+          "success_msg": "Đã cập nhật thanh toán thành công 👍"
+        }
+      }
+    }
+  },
+  "loans": {
+    "common": {
+      "authority": "Thẩm quyền",
+      "loan": "Tiền vay",
+      "loan_placeholder": "Chọn khoản vay",
+      "loan_authority": "Cơ quan cho vay",
+      "authority_placeholder": "Chọn một cơ quan",
+      "cc_limit": "Giới hạn CC",
+      "cc_placeholder": "Nhập hạn mức cho vay cc",
+      "cash_credit_limit": "Hạn mức cho vay Tín dụng Tiền mặt (CC)",
+      "cash_credit_loan": "Khoản vay Tín dụng Tiền mặt (CC)",
+      "interetest_paid": "Trả lãi",
+      "total_payable": "Tổng phải trả",
+      "total_loan": "Tổng khoản vay",
+      "cc_term": "CC + thời hạn",
+      "cc_taken": "CC khoản vay đã thực hiện",
+      "available_cc": "Khoản vay CC có sẵn",
+      "all_loans": "Tất cả các khoản cho vay",
+      "empty_loan": "Chưa có khoản vay nào!",
+      "empty_loan_msg": "Bạn chưa thêm bất kỳ khoản vay nào cho cơ quan này. Sau khi thêm các khoản vay, bạn sẽ thấy danh sách ở đây.",
+      "authority_details": "Chi tiết quyền hạn",
+      "payable_amount": "Số tiền phải trả",
+      "duration": "Khoảng thời gian",
+      "duration_placeholder": "Nhập thời lượng",
+      "interest_rate_placeholder": "Nhập lãi suất theo phần trăm",
+      "available_amount": "Số tiền có sẵn",
+      "term_loan": "Thời hạn cho mượn",
+      "loan_type": "Loại cho vay",
+      "loan_reason": "Lý do cho vay",
+      "loan_date": "Ngày cho vay",
+      "Loan_account": "Tài khoản cho vay",
+      "Loan_payments": "Thanh toán Khoản vay",
+      "empty_payment_msg": "Bạn chưa thêm bất kỳ khoản thanh toán nào cho khoản vay này. Sau khi thêm các khoản thanh toán, bạn sẽ thấy danh sách ở đây.",
+      "loan_amount": "Số tiền vay",
+      "loan_ref": "Khoản vay giới thiệu",
+      "payment_ref": "Tham chiếu thanh toán",
+      "amount_paid": "Số tiền đã trả"
+    },
+    "authorities": {
+      "index": {
+        "page_title": "Tổ chức cho vay",
+        "breadcrumbs_current": "Tổ chức cho vay",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Quản lý khoản vay",
+        "breadcrumbs_active": "Cơ quan chức năng",
+        "delete_warning": "Bạn sẽ không thể trở lại điều này!",
+        "delete_failed": "Xin lỗi, bạn không thể xóa quyền này."
+      },
+      "create": {
+        "page_title": "Tạo cơ quan cho vay",
+        "form_title": "Tạo cơ quan cho vay",
+        "breadcrumbs_current": "Tạo cơ quan cho vay",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Tổ chức cho vay",
+        "breadcrumbs_active": "Tạo ra",
+        "success_msg": "Đã thêm cơ quan cho vay thành công 👍"
+      },
+      "edit": {
+        "page_title": "Chỉnh sửa Cơ quan cho vay",
+        "form_title": "Chỉnh sửa cơ quan cho vay",
+        "breadcrumbs_current": "Chỉnh sửa quyền hạn",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Tổ chức cho vay",
+        "breadcrumbs_active": "Chỉnh sửa",
+        "success_msg": "Đã cập nhật cơ quan cho vay thành công 👍"
+      },
+      "view": {
+        "page_title": "Xem Cơ quan cho vay",
+        "breadcrumbs_current": "Chi tiết quyền hạn",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Tổ chức cho vay",
+        "breadcrumbs_active": "Thông tin chi tiết"
+      }
+    },
+    "payments": {
+      "index": {
+        "page_title": "Thanh toán Khoản vay",
+        "breadcrumbs_current": "Thanh toán Khoản vay",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Quản lý khoản vay",
+        "breadcrumbs_active": "Thanh toán Khoản vay",
+        "delete_warning": "Bạn sẽ không thể trở lại điều này!",
+        "delete_failed": "Có gì đó không ổn."
+      },
+      "create": {
+        "page_title": "Tạo thanh toán khoản vay",
+        "form_title": "Tạo thanh toán khoản vay",
+        "breadcrumbs_current": "Tạo thanh toán khoản vay",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Thanh toán Khoản vay",
+        "breadcrumbs_active": "Tạo ra",
+        "success_msg": "Đã thêm thanh toán khoản vay thành công 👍"
+      },
+      "edit": {
+        "page_title": "Chỉnh sửa Thanh toán Khoản vay",
+        "form_title": "Chỉnh sửa thanh toán khoản vay",
+        "breadcrumbs_current": "Chỉnh sửa Thanh toán Khoản vay",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Thanh toán Khoản vay",
+        "breadcrumbs_active": "Chỉnh sửa",
+        "success_msg": "Đã cập nhật thanh toán thành công 👍"
+      },
+      "view": {
+        "page_title": "Chi tiết Thanh toán Khoản vay",
+        "breadcrumbs_current": "Chi tiết Thanh toán Khoản vay",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Thanh toán Khoản vay",
+        "breadcrumbs_active": "Thông tin chi tiết"
+      }
+    },
+    "list": {
+      "index": {
+        "page_title": "Cho vay",
+        "breadcrumbs_current": "Cho vay",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Quản lý khoản vay",
+        "breadcrumbs_active": "Cho vay",
+        "delete_warning": "Bạn sẽ không thể trở lại điều này!",
+        "delete_failed": "Xin lỗi bạn không thể xóa khoản vay này."
+      },
+      "create": {
+        "page_title": "Tạo khoản vay",
+        "form_title": "Tạo một khoản vay",
+        "breadcrumbs_current": "Tạo khoản vay",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Cho vay",
+        "breadcrumbs_active": "Tạo ra",
+        "success_msg": "Đã thêm khoản vay thành công 👍"
+      },
+      "edit": {
+        "page_title": "Chỉnh sửa Khoản vay",
+        "form_title": "Chỉnh sửa khoản vay",
+        "breadcrumbs_current": "Chỉnh sửa Khoản vay",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Cho vay",
+        "breadcrumbs_active": "Chỉnh sửa",
+        "success_msg": "Đã cập nhật khoản vay thành công 👍"
+      },
+      "view": {
+        "page_title": "Chi tiết Khoản vay",
+        "breadcrumbs_current": "Chi tiết Khoản vay",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Cho vay",
+        "breadcrumbs_active": "Thông tin chi tiết"
+      }
+    }
+  },
+  "assets": {
+    "common": {
+      "asset_name": "Tên tài sản",
+      "asset_name_placeholder": "Nhập tên tài sản",
+      "asset_type": "Loại tài sản",
+      "asset_type_placeholder": "Chọn một loại nội dung",
+      "asset_cost": "Chi phí tài sản",
+      "asset_cost_placeholder": "Nhập giá tài sản",
+      "current_value": "Giá trị hiện tại",
+      "depreciation": "Khấu hao",
+      "depreciation_type": "Loại khấu hao",
+      "salvage_value": "Giá trị còn lại",
+      "salvage_value_placeholder": "Giá trị còn lại",
+      "useful_life": "Cuộc sống hữu ích",
+      "remaining_life": "Cuộc sống còn lại",
+      "useful_life_placeholder": "Bước vào cuộc sống hữu ích",
+      "added_date": "Ngày thêm",
+      "expired_date": "Ngày hết hạn"
+    },
+    "types": {
+      "index": {
+        "page_title": "Các loại tài sản",
+        "breadcrumbs_current": "Các loại tài sản",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Quản lý tài sản",
+        "breadcrumbs_active": "Các loại tài sản",
+        "delete_warning": "Bạn sẽ không thể trở lại điều này!",
+        "delete_failed": "Có điều gì đó không ổn."
+      },
+      "create": {
+        "page_title": "Tạo loại tài sản",
+        "form_title": "Tạo một loại nội dung",
+        "breadcrumbs_current": "Tạo loại tài sản",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Các loại tài sản",
+        "breadcrumbs_active": "Tạo ra",
+        "success_msg": "Đã thêm loại nội dung thành công 👍"
+      },
+      "edit": {
+        "page_title": "Chỉnh sửa loại nội dung",
+        "form_title": "Chỉnh sửa loại nội dung",
+        "breadcrumbs_current": "Chỉnh sửa loại nội dung",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Các loại tài sản",
+        "breadcrumbs_active": "Chỉnh sửa",
+        "success_msg": "Đã cập nhật loại nội dung thành công 👍"
+      }
+    },
+    "list": {
+      "index": {
+        "page_title": "Tài sản",
+        "breadcrumbs_current": "Tài sản",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Quản lý tài sản",
+        "breadcrumbs_active": "Tài sản",
+        "delete_warning": "Bạn sẽ không thể trở lại điều này!",
+        "delete_failed": "Có điều gì đó không ổn."
+      },
+      "create": {
+        "page_title": "Tạo nội dung",
+        "form_title": "Tạo tài sản",
+        "breadcrumbs_current": "Tạo nội dung",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Tài sản",
+        "breadcrumbs_active": "Tạo ra",
+        "success_msg": "Đã thêm nội dung thành công 👍"
+      },
+      "edit": {
+        "page_title": "Chỉnh sửa nội dung",
+        "form_title": "Chỉnh sửa nội dung",
+        "breadcrumbs_current": "Chỉnh sửa nội dung",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Tài sản",
+        "breadcrumbs_active": "Chỉnh sửa",
+        "success_msg": "Đã cập nhật nội dung thành công 👍"
+      },
+      "view": {
+        "page_title": "Chi tiết tài sản",
+        "breadcrumbs_current": "Chi tiết tài sản",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Tài sản",
+        "breadcrumbs_active": "Thông tin chi tiết"
+      }
+    }
+  },
+  "payroll": {
+    "common": {
+      "salary_date": "Ngày trả lương",
+      "total_salary": "Tổng số tiền lương",
+      "advance": "Nâng cao",
+      "advance_placeholder": "Nhập số tiền advacne",
+      "others": "Khác",
+      "others_placeholder": "Nhập số tiền khác",
+      "travel_allowance": "Trợ cấp đi lại (TA)",
+      "travel_allowance_placeholder": "Nhập trợ cấp đi lại",
+      "festival_bonus": "Tiền thưởng lễ hội",
+      "festival_bonus_placeholder": "Nhập tiền thưởng lễ hội",
+      "commission": "Nhiệm vụ",
+      "commission_placeholder": "Nhập hoa hồng",
+      "bonus": "Thưởng",
+      "bonus_placeholder": "Nhập tiền thưởng",
+      "food_bill": "Hóa đơn thực phẩm",
+      "food_bill_placeholder": "Nhập hóa đơn ăn uống",
+      "mobile_bill": "Hóa đơn di động",
+      "mobile_bill_placeholder": "Nhập hóa đơn di động",
+      "deduction_reason": "Lý do khấu trừ",
+      "deduction_reason_placeholder": "Nhập lý do khấu trừ",
+      "deduction_amount": "Số tiền khấu trừ",
+      "deduction_amount_placeholder": "Nhập số tiền khấu trừ",
+      "present_salary": "Mức lương hiện tại",
+      "salary_month": "Tháng lương",
+      "salary_month_placeholder": "Chọn tháng lương"
+    },
+    "index": {
+      "page_title": "Bảng lương nhân viên",
+      "breadcrumbs_current": "Bảng lương nhân viên",
+      "breadcrumbs_first": "bảng điều khiển",
+      "breadcrumbs_second": "Lương bổng",
+      "breadcrumbs_active": "Lương bổng",
+      "delete_warning": "Bạn sẽ không thể trở lại điều này!",
+      "delete_failed": "Có gì đó không ổn."
+    },
+    "create": {
+      "page_title": "Tạo bảng lương",
+      "form_title": "Tạo bảng lương nhân viên",
+      "breadcrumbs_current": "Tạo bảng lương",
+      "breadcrumbs_first": "bảng điều khiển",
+      "breadcrumbs_second": "Lương bổng",
+      "breadcrumbs_active": "Tạo ra",
+      "success_msg": "Bảng lương đã được thêm thành công 👍"
+    },
+    "edit": {
+      "page_title": "Chỉnh sửa bảng lương",
+      "form_title": "Chỉnh sửa bảng lương",
+      "breadcrumbs_current": "Chỉnh sửa bảng lương",
+      "breadcrumbs_first": "bảng điều khiển",
+      "breadcrumbs_second": "Lương bổng",
+      "breadcrumbs_active": "Chỉnh sửa",
+      "success_msg": "Đã cập nhật bảng lương thành công 👍"
+    },
+    "view": {
+      "page_title": "Chi tiết bảng lương",
+      "breadcrumbs_current": "Chi tiết bảng lương",
+      "breadcrumbs_first": "bảng điều khiển",
+      "breadcrumbs_second": "Lương bổng",
+      "breadcrumbs_active": "Thông tin chi tiết"
+    }
+  },
+  "clients": {
+    "common": {
+      "non_invoice_transactions": "Giao dịch không có hóa đơn"
+    },
+    "index": {
+      "page_title": "Khách hàng",
+      "breadcrumbs_current": "Khách hàng",
+      "breadcrumbs_first": "bảng điều khiển",
+      "breadcrumbs_second": "Khách hàng",
+      "breadcrumbs_active": "Khách hàng",
+      "delete_warning": "Bạn sẽ không thể trở lại điều này!",
+      "delete_failed": "Xin lỗi, bạn không thể xóa khách hàng này."
+    },
+    "create": {
+      "page_title": "Tạo khách hàng",
+      "form_title": "Tạo khách hàng",
+      "breadcrumbs_current": "Tạo khách hàng",
+      "breadcrumbs_first": "bảng điều khiển",
+      "breadcrumbs_second": "Khách hàng",
+      "breadcrumbs_active": "Tạo ra",
+      "success_msg": "Đã thêm khách hàng thành công 👍"
+    },
+    "edit": {
+      "page_title": "Chỉnh sửa khách hàng",
+      "form_title": "Chỉnh sửa khách hàng",
+      "breadcrumbs_current": "Chỉnh sửa khách hàng",
+      "breadcrumbs_first": "bảng điều khiển",
+      "breadcrumbs_second": "Khách hàng",
+      "breadcrumbs_active": "Chỉnh sửa",
+      "success_msg": "Đã cập nhật ứng dụng khách thành công 👍"
+    },
+    "view": {
+      "page_title": "Chi tiết khách hàng",
+      "breadcrumbs_current": "Chi tiết khách hàng",
+      "breadcrumbs_first": "bảng điều khiển",
+      "breadcrumbs_second": "Khách hàng",
+      "breadcrumbs_active": "Thông tin chi tiết"
+    }
+  },
+  "suppliers": {
+    "common": {
+      "non_purchase_transactions": "Giao dịch không mua"
+    },
+    "index": {
+      "page_title": "Các nhà cung cấp",
+      "breadcrumbs_current": "Các nhà cung cấp",
+      "breadcrumbs_first": "bảng điều khiển",
+      "breadcrumbs_second": "Các nhà cung cấp",
+      "breadcrumbs_active": "Các nhà cung cấp",
+      "delete_warning": "Bạn sẽ không thể trở lại điều này!",
+      "delete_failed": "Xin lỗi, bạn không thể xóa nhà cung cấp này."
+    },
+    "create": {
+      "page_title": "Tạo nhà cung cấp",
+      "form_title": "Tạo nhà cung cấp",
+      "breadcrumbs_current": "Tạo nhà cung cấp",
+      "breadcrumbs_first": "bảng điều khiển",
+      "breadcrumbs_second": "Các nhà cung cấp",
+      "breadcrumbs_active": "Tạo ra",
+      "success_msg": "Đã thêm nhà cung cấp thành công 👍"
+    },
+    "edit": {
+      "page_title": "Chỉnh sửa nhà cung cấp",
+      "form_title": "Chỉnh sửa nhà cung cấp",
+      "breadcrumbs_current": "Chỉnh sửa nhà cung cấp",
+      "breadcrumbs_first": "bảng điều khiển",
+      "breadcrumbs_second": "Các nhà cung cấp",
+      "breadcrumbs_active": "Chỉnh sửa",
+      "success_msg": "Đã cập nhật nhà cung cấp thành công 👍"
+    },
+    "view": {
+      "page_title": "Thông tin chi tiết về nhà cung cấp",
+      "breadcrumbs_current": "Thông tin chi tiết về nhà cung cấp",
+      "breadcrumbs_first": "bảng điều khiển",
+      "breadcrumbs_second": "Các nhà cung cấp",
+      "breadcrumbs_active": "Thông tin chi tiết"
+    }
+  },
+  "employees": {
+    "common": {
+      "increment_date": "Ngày gia tăng",
+      "increment_amount": "Số tiền gia tăng",
+      "increment_amount_placeholder": "Nhập số tiền tăng dần",
+      "increment_reason": "Lý do gia tăng",
+      "increment_reason_placeholder": "Nhập lý do",
+      "basic_salary": "Lương cơ bản",
+      "current_salary": "Mức lương hiện tại",
+      "incremented_salary": "Tăng lương",
+      "birth_date": "Ngày sinh",
+      "join_date": "Ngày tham gia",
+      "employee_name": "Tên nhân viên",
+      "employee_name_placeholder": "Nhập tên nhân viên",
+      "gender": "Giới tính",
+      "gender_placeholder": "Chọn giới tính",
+      "male": "Nam giới",
+      "female": "Giống cái",
+      "transgender": "Chuyển giới",
+      "other": "Khác",
+      "blood_group": "Nhóm máu",
+      "blood_group_placeholder": "Chọn một nhóm máu",
+      "religion": "Tôn giáo",
+      "religion_placeholder": "Chọn một tôn giáo",
+      "islam": "đạo Hồi",
+      "hinduism": "Ấn Độ giáo",
+      "buddhists": "Phật tử",
+      "christians": "Thiên Chúa giáo",
+      "animists": "Nhà hoạt hình",
+      "appointment_date": "Ngày hẹn",
+      "allow_login": "Cho phép nhân viên đăng nhập",
+      "increment_history": "Lịch sử gia tăng"
+    },
+    "departments": {
+      "index": {
+        "page_title": "Các phòng ban",
+        "breadcrumbs_current": "Các phòng ban",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Người lao động",
+        "breadcrumbs_active": "Các phòng ban",
+        "delete_warning": "Bạn sẽ không thể trở lại điều này!",
+        "delete_failed": "Có điều gì đó không ổn."
+      },
+      "create": {
+        "page_title": "Tạo bộ phận",
+        "form_title": "Tạo một bộ phận",
+        "breadcrumbs_current": "Tạo bộ phận",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Các phòng ban",
+        "breadcrumbs_active": "Tạo ra",
+        "success_msg": "Bộ phận được thêm thành công 👍"
+      },
+      "edit": {
+        "page_title": "Chỉnh sửa bộ phận",
+        "form_title": "Chỉnh sửa bộ phận",
+        "breadcrumbs_current": "Chỉnh sửa bộ phận",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Các phòng ban",
+        "breadcrumbs_active": "Chỉnh sửa",
+        "success_msg": "Bộ phận được cập nhật thành công 👍"
+      }
+    },
+    "increments": {
+      "index": {
+        "page_title": "Tăng lương cho nhân viên",
+        "breadcrumbs_current": "Tăng lương",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Người lao động",
+        "breadcrumbs_active": "Gia tăng",
+        "delete_warning": "Bạn sẽ không thể trở lại điều này!",
+        "delete_failed": "Có điều gì đó không ổn."
+      },
+      "create": {
+        "page_title": "Tạo tăng lương",
+        "form_title": "Tạo tăng lương",
+        "breadcrumbs_current": "Tạo tăng lương",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Gia tăng",
+        "breadcrumbs_active": "Tạo ra",
+        "success_msg": "Đã thêm thành công phần tăng thêm 👍"
+      },
+      "edit": {
+        "page_title": "Chỉnh sửa tăng lương",
+        "form_title": "Chỉnh sửa tăng lương",
+        "breadcrumbs_current": "Chỉnh sửa tăng lương",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Gia tăng",
+        "breadcrumbs_active": "Chỉnh sửa",
+        "success_msg": "Đã cập nhật phần tăng thêm thành công 👍"
+      },
+      "view": {
+        "page_title": "Chi tiết gia tăng",
+        "breadcrumbs_current": "Chi tiết gia tăng",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Gia tăng",
+        "breadcrumbs_active": "Thông tin chi tiết"
+      }
+    },
+    "list": {
+      "index": {
+        "page_title": "Người lao động",
+        "breadcrumbs_current": "Người lao động",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_active": "Người lao động",
+        "delete_warning": "Bạn sẽ không thể trở lại điều này!",
+        "delete_failed": "Có điều gì đó không ổn."
+      },
+      "create": {
+        "page_title": "Tạo nhân viên",
+        "form_title": "Tạo một nhân viên",
+        "breadcrumbs_current": "Tạo nhân viên",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Người lao động",
+        "breadcrumbs_active": "Tạo ra",
+        "success_msg": "Đã thêm nhân viên thành công 👍"
+      },
+      "edit": {
+        "page_title": "Chỉnh sửa nhân viên",
+        "form_title": "Chỉnh sửa nhân viên",
+        "breadcrumbs_current": "Chỉnh sửa nhân viên",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Người lao động",
+        "breadcrumbs_active": "Chỉnh sửa",
+        "success_msg": "Đã cập nhật nhân viên thành công 👍"
+      },
+      "view": {
+        "page_title": "Thông tin nhân viên",
+        "breadcrumbs_current": "Thông tin nhân viên",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Người lao động",
+        "breadcrumbs_active": "Thông tin chi tiết"
+      }
+    }
+  },
+  "products": {
+    "categories": {
+      "index": {
+        "page_title": "Danh mục sản phẩm",
+        "breadcrumbs_current": "Danh mục sản phẩm",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Các sản phẩm",
+        "breadcrumbs_active": "Thể loại",
+        "delete_warning": "Tất cả các hạng mục phụ cho hạng mục này sẽ bị xóa!"
+      },
+      "create": {
+        "page_title": "Tạo danh mục sản phẩm",
+        "form_title": "Tạo một danh mục sản phẩm",
+        "breadcrumbs_current": "Tạo danh mục",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Các sản phẩm",
+        "breadcrumbs_third": "Thể loại",
+        "breadcrumbs_active": "Tạo ra",
+        "success_msg": "Đã thêm danh mục thành công 👍"
+      },
+      "edit": {
+        "page_title": "Chỉnh sửa danh mục sản phẩm",
+        "form_title": "Chỉnh sửa danh mục sản phẩm",
+        "breadcrumbs_current": "Chỉnh sửa danh mục sản phẩm",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Các sản phẩm",
+        "breadcrumbs_third": "Thể loại",
+        "breadcrumbs_active": "Chỉnh sửa",
+        "success_msg": "Đã cập nhật danh mục thành công 👍"
+      }
+    },
+    "sub_categories": {
+      "index": {
+        "page_title": "Danh mục sản phẩm phụ",
+        "breadcrumbs_current": "Danh mục sản phẩm phụ",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Các sản phẩm",
+        "breadcrumbs_active": "Danh mục phụ",
+        "delete_warning": "Tất cả các sản phẩm cho danh mục này sẽ bị xóa!"
+      },
+      "create": {
+        "page_title": "Tạo danh mục phụ sản phẩm",
+        "form_title": "Tạo một danh mục phụ sản phẩm",
+        "breadcrumbs_current": "Tạo danh mục phụ",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Các sản phẩm",
+        "breadcrumbs_third": "Danh mục phụ",
+        "breadcrumbs_active": "Tạo ra",
+        "success_msg": "Đã thêm danh mục phụ thành công 👍"
+      },
+      "edit": {
+        "page_title": "Chỉnh sửa danh mục phụ sản phẩm",
+        "form_title": "Chỉnh sửa danh mục phụ của sản phẩm",
+        "breadcrumbs_current": "Chỉnh sửa danh mục phụ sản phẩm",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Các sản phẩm",
+        "breadcrumbs_third": "Danh mục phụ",
+        "breadcrumbs_active": "Chỉnh sửa",
+        "success_msg": "Đã cập nhật danh mục phụ thành công 👍"
+      }
+    },
+    "list": {
+      "common": {
+        "alert_quantity": "Số lượng cảnh báo",
+        "alert_quantity_placeholder": "Nhập số lượng cảnh báo",
+        "selling_price": "Gia ban",
+        "selling_price_placeholder": "Nhập giá ưu đãi",
+        "regular_price": "Giá cả phải chăng",
+        "regular_price_placeholder": "Nhập giá thông thường",
+        "tax_type": "Loại thuế",
+        "exclusive": "Loại trừ",
+        "inclusive": "Bao gồm",
+        "product_tax": "Thuế sản phẩm",
+        "tax_placeholder": "Chọn thuế",
+        "barcode_symbology": "Ký hiệu mã vạch",
+        "tax_amount": "Số tiền thuế",
+        "avg_purchase_price": "Trung bình Giá mua",
+        "avg_selling_price": "Trung bình Gia ban",
+        "stock": "Cổ phần",
+        "inventory_value": "Giá trị hàng tồn kho",
+        "generate_barcode": "Tạo mã vạch"
+      },
+      "index": {
+        "page_title": "Các sản phẩm",
+        "breadcrumbs_current": "Các sản phẩm",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Các sản phẩm",
+        "breadcrumbs_active": "Các sản phẩm",
+        "delete_warning": "Bạn sẽ không thể trở lại điều này!"
+      },
+      "create": {
+        "page_title": "Tạo sản phẩm",
+        "form_title": "Tạo một sản phẩm",
+        "breadcrumbs_current": "Tạo sản phẩm",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Các sản phẩm",
+        "breadcrumbs_active": "Tạo ra",
+        "success_msg": "Đã thêm sản phẩm thành công 👍"
+      },
+      "edit": {
+        "page_title": "Chỉnh sửa sản phẩm",
+        "form_title": "Chỉnh sửa sản phẩm",
+        "breadcrumbs_current": "Chỉnh sửa sản phẩm",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Các sản phẩm",
+        "breadcrumbs_active": "Chỉnh sửa",
+        "success_msg": "Đã cập nhật sản phẩm thành công 👍"
+      },
+      "view": {
+        "page_title": "Thông tin chi tiết sản phẩm",
+        "breadcrumbs_current": "Thông tin chi tiết sản phẩm",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Các sản phẩm",
+        "breadcrumbs_active": "Thông tin chi tiết",
+        "expense_details": "Thông tin chi tiết sản phẩm"
+      },
+      "barcode": {
+        "page_title": "In mã vạch",
+        "generate_barcode": "Tạo mã vạch",
+        "print_barcode": "In mã vạch",
+        "paper_size": "Khổ giấy",
+        "print_qty": "In số lượng",
+        "breadcrumbs_current": "In mã vạch",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Các sản phẩm",
+        "breadcrumbs_active": "Chỉnh sửa",
+        "page_option_0": "40 mỗi tờ (a4) (1.799 * 1.003)",
+        "page_option_1": "30 mỗi tờ (2.625 * 1)",
+        "page_option_2": "24 mỗi tờ (a4) (2,48 * 1,334)",
+        "page_option_3": "20 mỗi tờ (4 * 1)",
+        "page_option_4": "18 mỗi tờ (a4) (2,5 * 1,835)",
+        "page_option_5": "14 mỗi tờ (4 * 1.33)",
+        "page_option_6": "12 mỗi tờ (a4) (2,5 * 2,834)",
+        "page_option_7": "10 mỗi tờ (4 * 2)"
+      }
+    }
+  },
+  "inventory": {
+    "common": {
+      "inventory_history": "Lịch sử khoảng không quảng cáo",
+      "adjustment_no": "Điều chỉnh Không",
+      "adjustment_date": "Ngày điều chỉnh",
+      "adjustment_type": "Loại điều chỉnh",
+      "increment": "Tăng",
+      "decrement": "Giảm dần",
+      "adjustment_reason": "Lý do điều chỉnh",
+      "adjusted_products": "Sản phẩm được điều chỉnh"
+    },
+    "index": {
+      "page_title": "Hàng tồn kho",
+      "breadcrumbs_current": "Hàng tồn kho",
+      "breadcrumbs_first": "bảng điều khiển",
+      "breadcrumbs_second": "Các sản phẩm",
+      "breadcrumbs_active": "Hàng tồn kho"
+    },
+    "history": {
+      "page_title": "Lịch sử khoảng không quảng cáo",
+      "breadcrumbs_current": "Lịch sử khoảng không quảng cáo",
+      "breadcrumbs_first": "bảng điều khiển",
+      "breadcrumbs_second": "Hàng tồn kho",
+      "breadcrumbs_active": "Lịch sử"
+    },
+    "adjustments": {
+      "index": {
+        "page_title": "Điều chỉnh khoảng không quảng cáo",
+        "breadcrumbs_current": "Điều chỉnh khoảng không quảng cáo",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Hàng tồn kho",
+        "breadcrumbs_active": "Điều chỉnh",
+        "delete_warning": "Bạn sẽ không thể trở lại điều này!",
+        "delete_failed": "Có điều gì đó không ổn."
+      },
+      "create": {
+        "page_title": "Tạo điều chỉnh",
+        "form_title": "Tạo điều chỉnh",
+        "breadcrumbs_current": "Tạo điều chỉnh",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Điều chỉnh",
+        "breadcrumbs_active": "Tạo ra",
+        "success_msg": "Đã thêm điều chỉnh thành công 👍"
+      },
+      "edit": {
+        "page_title": "Chỉnh sửa điều chỉnh",
+        "form_title": "Chỉnh sửa điều chỉnh",
+        "breadcrumbs_current": "Chỉnh sửa điều chỉnh",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Điều chỉnh",
+        "breadcrumbs_active": "Chỉnh sửa",
+        "success_msg": "Đã cập nhật điều chỉnh thành công 👍"
+      },
+      "view": {
+        "page_title": "Chi tiết điều chỉnh",
+        "breadcrumbs_current": "Chi tiết điều chỉnh",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Điều chỉnh",
+        "breadcrumbs_active": "Thông tin chi tiết"
+      }
+    }
+  },
+  "reports": {
+    "stock_in": "Còn hàng",
+    "stock_out": "Cổ phiếu ra",
+    "total_quantity": "Tổng số lượng",
+    "incomes": "Thu nhập",
+    "liabilities": "Nợ phải trả",
+    "security_asset": "Tổng bảo mật / Tài sản",
+    "supplier_dues": "Công việc của nhà cung cấp",
+    "client_dues": "Hai của khách hàng",
+    "bank_loan": "Vay ngân hàng",
+    "bank_balance": "Số dư Ngân hàng",
+    "income_liabilities": "(Thu nhập - Nợ phải trả)",
+    "total_asset": "Tổng tài sản",
+    "view_report": "Xem báo cáo",
+    "monthly_summery": "Tóm tắt hàng tháng",
+    "particulars": "Chi tiết",
+    "opening_balance": "Số dư đầu kỳ",
+    "invoice_sales": "Bán hóa đơn",
+    "invoice_dues": "Hóa đơn Dues",
+    "accounts_collection": "Bộ sưu tập tài khoản",
+    "general": "Chung",
+    "loan_interest": "Lãi suất cho vay",
+    "asset_depreciation": "Khấu hao tài sản",
+    "transfer": "Chuyển khoản",
+    "transfer_from": "Chuyển số dư từ",
+    "closing_balance": "Số dư cuối kỳ",
+    "report_type": "Loại báo cáo",
+    "gross_profit_Loss": "Lãi / lỗ gộp",
+    "net_profit_Loss": "Lãi / lỗ ròng",
+    "sold_qty": "Số lượng đã bán",
+    "profit": "Lợi nhuận",
+    "loss": "Sự mất mát",
+    "total_sales_avg": "Tổng doanh số (Trung bình)",
+    "total_purchased_avg": "Tổng số lần mua (Trung bình)",
+    "income_statement": "Báo cáo thu nhập",
+    "total_sales": "Tổng doanh số",
+    "cost_of_goods_sold": "Giá vốn hàng bán",
+    "positive_adjusted": "Điều chỉnh tích cực",
+    "negative_adjusted": "Đã điều chỉnh phủ định",
+    "total_adjusted": "Tổng số đã điều chỉnh",
+    "gross_profit": "Lợi nhuận gộp",
+    "gross_loss": "Lỗ gộp",
+    "operating_expenses": "Chi phí hoạt động",
+    "salaries": "Lương",
+    "general_expenses": "Chi phí chung",
+    "total_expense": "Tổng chi phí",
+    "net_profit": "Lợi nhuận ròng",
+    "net_loss": "Lỗ ròng",
+    "date_range": "Phạm vi ngày",
+    "stock_in_hand": "Hàng trong tay",
+    "balance_sheet": {
+      "page_title": "Bảng cân đối kế toán",
+      "breadcrumbs_current": "Bảng cân đối kế toán",
+      "breadcrumbs_first": "bảng điều khiển",
+      "breadcrumbs_second": "Báo cáo",
+      "breadcrumbs_active": "Bảng cân đối kế toán"
+    },
+    "summary": {
+      "page_title": "Báo cáo tổng hợp",
+      "breadcrumbs_current": "Báo cáo tổng hợp",
+      "breadcrumbs_first": "bảng điều khiển",
+      "breadcrumbs_second": "Báo cáo",
+      "breadcrumbs_active": "Báo cáo tổng hợp"
+    },
+    "profit_loss": {
+      "empty_msg_title": "Lãi / lỗ trống!",
+      "empty_msg_text": "Xin lỗi, không tìm thấy lãi / lỗ cho danh mục và phạm vi ngày đã chọn của bạn.",
+      "page_title": "Báo cáo lãi / lỗ",
+      "breadcrumbs_current": "Báo cáo lãi / lỗ",
+      "breadcrumbs_first": "bảng điều khiển",
+      "breadcrumbs_second": "Báo cáo",
+      "breadcrumbs_active": "Báo cáo lãi / lỗ"
+    },
+    "expense": {
+      "empty_msg_title": "Chi tiêu trống rỗng!",
+      "empty_msg_text": "Xin lỗi, không có chi phí nào được tìm thấy cho danh mục và phạm vi ngày bạn đã chọn.",
+      "page_title": "Báo cáo chi tiêu",
+      "breadcrumbs_current": "Báo cáo chi tiêu",
+      "breadcrumbs_first": "bảng điều khiển",
+      "breadcrumbs_second": "Báo cáo",
+      "breadcrumbs_active": "Báo cáo chi tiêu"
+    },
+    "product": {
+      "empty_msg_title": "Trống rỗng!",
+      "empty_msg_text": "Xin lỗi, không có hàng trong hoặc hết hàng đã được tìm thấy cho mặt hàng và phạm vi ngày đã chọn của bạn.",
+      "page_title": "Báo cáo mặt hàng",
+      "breadcrumbs_current": "Báo cáo mặt hàng",
+      "breadcrumbs_first": "bảng điều khiển",
+      "breadcrumbs_second": "Báo cáo",
+      "breadcrumbs_active": "Báo cáo mặt hàng"
+    },
+    "inventory": {
+      "empty_msg_title": "Hàng tồn kho trống rỗng!",
+      "empty_msg_text": "Xin lỗi, không có khoảng không quảng cáo nào được tìm thấy cho danh mục và phạm vi ngày đã chọn của bạn.",
+      "page_title": "Báo cáo hàng tồn kho",
+      "breadcrumbs_current": "Báo cáo hàng tồn kho",
+      "breadcrumbs_first": "bảng điều khiển",
+      "breadcrumbs_second": "Báo cáo",
+      "breadcrumbs_active": "Báo cáo hàng tồn kho"
+    }
+  },
+  "setup": {
+    "common": {
+      "sort_code": "Mã ngắn",
+      "sort_code_placeholder": "Nhập mã ngắn"
+    },
+    "index": {
+      "page_title": "Thành lập",
+      "breadcrumbs_current": "Thành lập",
+      "breadcrumbs_first": "bảng điều khiển",
+      "breadcrumbs_active": "Thành lập",
+      "menu": {
+        "item_one": {
+          "title": "Chung",
+          "description": "Cài đặt chung như, tiêu đề trang, mô tả trang, địa chỉ, v.v.",
+          "link_text": "Thay đổi cài đặt"
+        },
+        "item_two": {
+          "title": "Tiền tệ",
+          "description": "Quản lý các loại tiền tệ khác nhau mà bạn sẽ sử dụng trong hệ thống.",
+          "link_text": "Tiền tệ"
+        },
+        "item_three": {
+          "title": "Các đơn vị",
+          "description": "Quản lý các loại đơn vị đo lường mà bạn sẽ sử dụng trong hệ thống.",
+          "link_text": "Các đơn vị"
+        },
+        "item_four": {
+          "title": "Vai trò & Quyền",
+          "description": "Quản lý Vai trò & Quyền cho người dùng sẽ sử dụng hệ thống.",
+          "link_text": "Vai trò & Quyền"
+        },
+        "item_five": {
+          "title": "Thuế VAT",
+          "description": "Quản lý thuế suất VAT để quản lý VAT mà bạn sẽ sử dụng trong hệ thống.",
+          "link_text": "Thuế VAT"
+        },
+        "item_six": {
+          "title": "Nhãn hiệu",
+          "description": "Quản lý các nhãn hiệu bạn sẽ sử dụng trong hệ thống.",
+          "link_text": "Nhãn hiệu"
+        },
+        "item_seven": {
+          "title": "Phương thức thanh toán",
+          "description": "Quản lý các phương thức thanh toán bạn sẽ sử dụng trong hệ thống.",
+          "link_text": "Phương thức thanh toán"
+        },
+        "item_eight": {
+          "title": "Quyền Người dùng",
+          "description": "Quản lý quyền mà bạn sẽ chỉ định trong một vai trò.",
+          "link_text": "Quyền Người dùng"
+        }
+      }
+    },
+    "general_settings": {
+      "index": {
+        "page_title": "Cài đặt chung",
+        "breadcrumbs_current": "Cài đặt chung",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Thành lập",
+        "breadcrumbs_active": "Cập nhật cài đặt chung",
+        "form_title": "Cập nhật cài đặt chung",
+        "success_message": "Đã cập nhật cài đặt thành công 👍",
+        "company_info": {
+          "info_title": "Thêm thông tin công ty của bạn",
+          "company_tagline": "Dòng giới thiệu công ty",
+          "company_tagline_placeholder": "Dòng giới thiệu công ty",
+          "email_address": "Địa chỉ email",
+          "email_address_placeholder": "Nhập địa chỉ email",
+          "phone_number": "Số điện thoại",
+          "phone_number_placeholder": "Số điện thoại"
+        },
+        "code_prefixes": {
+          "prefix_title": "Thêm các tiền tố mã",
+          "client_prefix": "Tiền tố khách hàng",
+          "client_prefix_placeholder": "Nhập tiền tố khách hàng",
+          "supplier_prefix": "Tiền tố nhà cung cấp",
+          "supplier_prefix_placeholder": "Nhập tiền tố nhà cung cấp",
+          "employee_prefix": "Tiền tố nhân viên",
+          "employee_prefix_placeholder": "Nhập tiền tố nhân viên",
+          "product_category_prefix": "Tiền tố danh mục sản phẩm",
+          "product_category_prefix_placeholder": "Nhập tiền tố danh mục sản phẩm",
+          "product_sub_category_prefix": "Tiền tố danh mục phụ sản phẩm",
+          "product_sub_category_prefix_placeholder": "Nhập tiền tố danh mục phụ",
+          "product_prefix": "Tiền tố sản phẩm",
+          "product_prefix_placeholder": "Nhập tiền tố sản phẩm",
+          "expense_category_prefix": "Tiền tố danh mục chi phí",
+          "expense_category_prefix_placeholder": "Nhập tiền tố danh mục chi phí",
+          "expense_sub_category_prefix": "Tiền tố danh mục phụ chi phí",
+          "expense_sub_category_prefix_placeholder": "Nhập tiền tố danh mục phụ chi phí",
+          "purchase_prefix": "Tiền tố mua hàng",
+          "purchase_prefix_placeholder": "Nhập tiền tố mua hàng",
+          "purchase_return_prefix": "Tiền tố Trả lại Mua hàng",
+          "purchase_return_prefix_placeholder": "Nhập tiền tố mua hàng trả lại",
+          "quotation_prefix": "Tiền tố báo giá",
+          "quotation_prefix_placeholder": "Nhập tiền tố báo giá",
+          "invoice_prefix": "Tiền tố hóa đơn",
+          "invoice_prefix_placeholder": "Nhập tiền tố hóa đơn",
+          "invoice_return_prefix": "Tiền tố trả lại hóa đơn",
+          "invoice_return_prefix_placeholder": "Nhập tiền tố trả lại hóa đơn",
+          "invoice_adjustment_prefix": "Tiền tố điều chỉnh khoảng không quảng cáo",
+          "invoice_adjustment_prefix_placeholder": "Nhập tiền tố điều chỉnh khoảng không quảng cáo"
+        },
+        "default_elements": {
+          "default_elements_title": "Thêm các yếu tố mặc định của bạn",
+          "default_currency": "mặc định ngoại tệ",
+          "select_a_currency": "Chọn đơn vị tiền tệ",
+          "default_language": "Ngôn ngữ mặc định",
+          "english_en": "Tiếng Anh (en)",
+          "hindi_hi": "Tiếng Hindi (xin chào)",
+          "bangla_bn": "Bangla (bn)",
+          "copyright_text": "Văn bản Bản quyền",
+          "copyright_text_placeholder": "Văn bản Bản quyền"
+        },
+        "logo": {
+          "white_logo": "Logo màu trắng",
+          "black_logo": "Logo màu đen",
+          "small_logo": "Logo nhỏ",
+          "favicon": "Favicon"
+        }
+      }
+    },
+    "currencies": {
+      "common": {
+        "symbol": "Biểu tượng",
+        "symbol_placeholder": "Nhập một ký hiệu",
+        "currency_position": "Vị thế tiền tệ",
+        "position_drop_down_item_one": "Căn trái",
+        "position_drop_down_item_two": "Căn phải"
+      },
+      "index": {
+        "page_title": "Tiền tệ",
+        "breadcrumbs_current": "Tiền tệ",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Thành lập",
+        "breadcrumbs_active": "Tiền tệ",
+        "table": {
+          "position": "Chức vụ",
+          "preview": "Xem trước"
+        }
+      },
+      "create": {
+        "page_title": "Tạo tiền tệ",
+        "breadcrumbs_current": "Tạo tiền tệ",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Thành lập",
+        "breadcrumbs_third": "Tiền tệ",
+        "breadcrumbs_active": "Tạo ra",
+        "success_msg": "Đã thêm tiền tệ thành công 👍",
+        "form_title": "Tạo tiền tệ"
+      },
+      "edit": {
+        "page_title": "Chỉnh sửa tiền tệ",
+        "breadcrumbs_current": "Chỉnh sửa tiền tệ",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Thành lập",
+        "breadcrumbs_third": "Tiền tệ",
+        "breadcrumbs_active": "Chỉnh sửa",
+        "success_msg": "Đã cập nhật tiền tệ thành công 👍",
+        "form_title": "Chỉnh sửa tiền tệ"
+      }
+    },
+    "units": {
+      "index": {
+        "page_title": "Các đơn vị",
+        "breadcrumbs_current": "Các đơn vị",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Thành lập",
+        "breadcrumbs_active": "Các đơn vị"
+      },
+      "create": {
+        "page_title": "Tạo đơn vị",
+        "breadcrumbs_current": "Tạo đơn vị",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Thành lập",
+        "breadcrumbs_third": "Các đơn vị",
+        "breadcrumbs_active": "Tạo ra",
+        "success_msg": "Đã thêm đơn vị thành công 👍",
+        "form_title": "Tạo đơn vị"
+      },
+      "edit": {
+        "page_title": "Chỉnh sửa đơn vị",
+        "breadcrumbs_current": "Chỉnh sửa đơn vị",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Thành lập",
+        "breadcrumbs_third": "Các đơn vị",
+        "breadcrumbs_active": "Chỉnh sửa",
+        "success_msg": "Đã cập nhật đơn vị thành công 👍",
+        "form_title": "Chỉnh sửa đơn vị"
+      }
+    },
+    "permissions": {
+      "common": {
+        "slug": "Sên",
+        "slug_placeholder": "Nhập một con sên",
+        "guard_name": "Tên bảo vệ",
+        "guard_name_placeholder": "Nhập tên bảo vệ"
+      },
+      "index": {
+        "page_title": "Quyền",
+        "breadcrumbs_current": "Quyền",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Thành lập",
+        "breadcrumbs_active": "Quyền"
+      },
+      "create": {
+        "page_title": "Tạo quyền",
+        "form_title": "Tạo quyền",
+        "breadcrumbs_current": "Tạo quyền",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Thành lập",
+        "breadcrumbs_third": "Quyền",
+        "breadcrumbs_active": "Tạo ra",
+        "success_msg": "Đã thêm quyền thành công 👍"
+      },
+      "edit": {
+        "page_title": "Chỉnh sửa quyền",
+        "form_title": "Quyền chỉnh sửa",
+        "breadcrumbs_current": "Chỉnh sửa quyền",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Thành lập",
+        "breadcrumbs_third": "Quyền",
+        "breadcrumbs_active": "Chỉnh sửa",
+        "success_msg": "Đã cập nhật quyền thành công 👍"
+      }
+    },
+    "role_and_permission": {
+      "index": {
+        "page_title": "Vai trò & Quyền",
+        "breadcrumbs_current": "Vai trò & Quyền",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Thành lập",
+        "breadcrumbs_active": "Vai trò & Quyền",
+        "role_name": "Tên vai trò"
+      },
+      "create": {
+        "page_title": "Tạo vai trò",
+        "breadcrumbs_current": "Tạo vai trò",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Thành lập",
+        "breadcrumbs_third": "Vai trò & Quyền",
+        "breadcrumbs_active": "Tạo ra",
+        "success_msg": "Đã thêm vai trò thành công 👍",
+        "form_title": "Tạo vai trò",
+        "select_permission": "Chọn quyền:"
+      },
+      "edit": {
+        "page_title": "Chỉnh sửa vai trò",
+        "breadcrumbs_current": "Chỉnh sửa vai trò",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Thành lập",
+        "breadcrumbs_third": "Vai trò & Quyền",
+        "breadcrumbs_active": "Chỉnh sửa",
+        "success_msg": "Đã cập nhật vai trò thành công 👍",
+        "form_title": "Chỉnh sửa vai trò",
+        "update_permission": "Cập nhật quyền:"
+      }
+    },
+    "vat_rates": {
+      "common": {
+        "rate_in_percent": "Tỷ lệ (Tính bằng%)",
+        "rate_palceholder": "Nhập tỷ lệ"
+      },
+      "index": {
+        "page_title": "Thuế VAT",
+        "breadcrumbs_current": "Thuế VAT",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Thành lập",
+        "breadcrumbs_active": "Thuế VAT",
+        "rate": "Tỷ lệ"
+      },
+      "create": {
+        "page_title": "Tạo thuế suất VAT",
+        "breadcrumbs_current": "Tạo thuế suất VAT",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Thành lập",
+        "breadcrumbs_third": "Thuế VAT",
+        "breadcrumbs_active": "Tạo ra",
+        "success_msg": "Đã thêm thuế VAT thành công 👍",
+        "form_title": "Tạo thuế suất VAT"
+      },
+      "edit": {
+        "page_title": "Chỉnh sửa thuế suất VAT",
+        "breadcrumbs_current": "Chỉnh sửa thuế suất VAT",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Thành lập",
+        "breadcrumbs_third": "Tỷ lệ Vat",
+        "breadcrumbs_active": "Chỉnh sửa",
+        "success_msg": "Đã cập nhật thành công thuế suất VAT 👍",
+        "form_title": "Chỉnh sửa thuế suất VAT"
+      }
+    },
+    "brands": {
+      "common": {
+        "brand_name": "Thương hiệu",
+        "brand_name_placeholder": "Nhập tên thương hiệu"
+      },
+      "index": {
+        "page_title": "Nhãn hiệu",
+        "breadcrumbs_current": "Nhãn hiệu",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Thành lập",
+        "breadcrumbs_active": "Nhãn hiệu",
+        "brand_logo_view": "Chế độ xem biểu trưng thương hiệu"
+      },
+      "create": {
+        "page_title": "Tạo thương hiệu",
+        "breadcrumbs_current": "Tạo thương hiệu",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Thành lập",
+        "breadcrumbs_third": "Nhãn hiệu",
+        "breadcrumbs_active": "Tạo ra",
+        "success_msg": "Đã thêm thương hiệu thành công 👍",
+        "form_title": "Tạo thương hiệu"
+      },
+      "view": {
+        "page_title": "Chi tiết thương hiệu",
+        "breadcrumbs_current": "Chi tiết thương hiệu",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Thành lập",
+        "breadcrumbs_third": "Nhãn hiệu",
+        "breadcrumbs_active": "Thông tin chi tiết"
+      },
+      "edit": {
+        "page_title": "Chỉnh sửa thương hiệu",
+        "breadcrumbs_current": "Chỉnh sửa thương hiệu",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Thành lập",
+        "breadcrumbs_third": "Nhãn hiệu",
+        "breadcrumbs_active": "Chỉnh sửa",
+        "success_msg": "Đã cập nhật thương hiệu thành công 👍",
+        "form_title": "Chỉnh sửa thương hiệu"
+      }
+    },
+    "payment_methods": {
+      "index": {
+        "page_title": "Phương thức thanh toán",
+        "breadcrumbs_current": "Phương thức thanh toán",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Thành lập",
+        "breadcrumbs_active": "Phương thức thanh toán"
+      },
+      "create": {
+        "page_title": "Tạo phương thức thanh toán",
+        "breadcrumbs_current": "Tạo phương thức thanh toán",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Thành lập",
+        "breadcrumbs_third": "Phương thức thanh toán",
+        "breadcrumbs_active": "Tạo ra",
+        "success_msg": "Đã thêm phương thức thanh toán thành công 👍",
+        "form_title": "Tạo phương thức thanh toán"
+      },
+      "edit": {
+        "page_title": "Chỉnh sửa Phương thức Thanh toán",
+        "breadcrumbs_current": "Chỉnh sửa phương thức thanh toán",
+        "breadcrumbs_first": "bảng điều khiển",
+        "breadcrumbs_second": "Thành lập",
+        "breadcrumbs_third": "Phương thức thanh toán",
+        "breadcrumbs_active": "Chỉnh sửa",
+        "success_msg": "Đã cập nhật phương thức thanh toán thành công 👍",
+        "form_title": "Chỉnh sửa phương thức thanh toán"
+      }
+    }
+  },
+  "user_profile": {
+    "form_title": "Cập nhật hồ sơ của bạn",
+    "page_title": "Cập nhật hồ sơ",
+    "breadcrumbs_current": "Cập nhật hồ sơ",
+    "breadcrumbs_first": "bảng điều khiển",
+    "breadcrumbs_active": "Cập nhật",
+    "current_password": "Mật khẩu hiện tại",
+    "current_password_placeholder": "Nhập mật khẩu hiện tại",
+    "new_password": "mật khẩu mới",
+    "new_password_placeholder": "Nhập mật khẩu mới",
+    "confirm_password": "Xác nhận mật khẩu",
+    "confirm_password_placeholder": "Nhập mật khẩu xác nhận",
+    "success_msg": "Đã cập nhật hồ sơ thành công 👍"
+  },
+  "stock_alert": {
+    "page_title": "Sản phẩm cảnh báo hàng tồn kho",
+    "breadcrumbs_current": "Sản phẩm cảnh báo hàng tồn kho",
+    "breadcrumbs_first": "bảng điều khiển",
+    "breadcrumbs_active": "Sản phẩm cảnh báo"
+  },
+  "backup": {
+    "page_title": "Sao lưu cơ sở dữ liệu",
+    "breadcrumbs_current": "Sao lưu cơ sở dữ liệu",
+    "breadcrumbs_first": "bảng điều khiển",
+    "breadcrumbs_active": "Sao lưu",
+    "export": "Xuất khẩu",
+    "format": "Định dạng",
+    "format_sql": "SQL (.sql)",
+    "success_msg": "Đã tải xuống bản sao lưu thành công 👍"
+  },
+  "permission_denied": {
+    "page_title": "Quyền bị Từ chối",
+    "breadcrumbs_current": "Quyền bị Từ chối",
+    "breadcrumbs_first": "bảng điều khiển",
+    "breadcrumbs_active": "Quyền bị Từ chối",
+    "error_msg": "Bạn không có quyền xem trang này.",
+    "error_code": "mã lỗi: 403 bị cấm."
+  },
+  "error_not_found": {
+    "error_404": "404",
+    "error_404_title": "Không tìm thấy trang",
+    "error_404_msg": "Xin lỗi, không tìm thấy URL được yêu cầu trên máy chủ này. Đó là tất cả những gì chúng tôi biết!",
+    "back_to_dashboard": "Quay lại Trang tổng quan",
+    "back_to_login": "Quay lại đăng nhập"
+  },
+  "sidebar_control": {
+    "customize_acculance": "Tùy chỉnh độ chính xác",
+    "dark_mode": "Chế độ tối",
+    "header_options": "Tùy chọn tiêu đề",
+    "fixed": "đã sửa",
+    "no_border": "Không có biên giới",
+    "sidebar_options": "Tùy chọn thanh bên",
+    "sidebar_dark": "Thanh bên tối",
+    "collapsed": "Đã thu gọn thanh bên",
+    "sidebar_fixed": "Thanh bên đã được sửa",
+    "sidebar_mini": "Thanh bên Mini",
+    "nav_flat_style": "Điều hướng phong cách phẳng",
+    "nav_legacy_style": "Nav Legacy Style",
+    "nav_child_indent": "Điều hướng con thụt lề",
+    "disable_hover": "Tắt Di chuột / Tự động mở rộng lấy nét"
+  },
+  "pos": {
+    "page_title": "POS",
+    "breadcrumbs_current": "Tạo bán hàng",
+    "breadcrumbs_first": "bảng điều khiển",
+    "breadcrumbs_second": "Hóa đơn",
+    "breadcrumbs_active": "POS",
+    "available": "Có sẵn",
+    "pos": "POS",
+    "complete_order": "Tiết kiệm",
+    "complete_order_and_add_payment": "Lưu & Thanh toán",
+    "add_payment": "Thêm thanh toán",
+    "invoice_receipt": "Nhận hóa đơn",
+    "not_enough_items": "Không đủ mặt hàng!",
+    "receipt_text": "Cảm ơn đã đi mua sắm với chúng tôi. Xin hãy đến một lần nữa!"
+  }
+}
