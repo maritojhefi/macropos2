@@ -44,7 +44,8 @@ class TransferBalanceController extends Controller
             'transferReason' => 'required|string|max:255',
             'fromAccount' => 'required',
             'toAccount' => 'required|different:fromAccount',
-            'amount' => 'required|numeric|min:1|max:'.$request->availableBalance,
+            'amount' => 'required|numeric|min:1|max:' . $request->availableBalance,
+            'receivedAmount'   => 'required|numeric|min:1',
             'date' => 'nullable|date_format:Y-m-d',
             'note' => 'nullable|string|max:255',
         ]);
@@ -53,45 +54,55 @@ class TransferBalanceController extends Controller
             // get logged in user id
             $userId = auth()->user()->id;
 
-            $fromAccountNumber = $request->fromAccount['accountNumber'];
-            $debitReason = "Balance transfer from [$fromAccountNumber]";
-            // store debit transaction
+            // 2. Extraigo los valores del request
+            $fromAccountData   = $request->fromAccount;   // es un array con 'id', 'accountNumber', etc.
+            $toAccountData     = $request->toAccount;     // idem
+            $amount            = floatval($request->amount);
+            $receivedAmount    = floatval($request->receivedAmount);
+            $exchangeRate      = ($amount > 0)
+                ? round($receivedAmount / $amount, 6)
+                : 0;
+            // 3. Transacción de débito en cuenta origen
+            $debitReason = "Transferencia desde: [{$fromAccountData['accountNumber']}]";
             $debitTransaction = AccountTransaction::create([
-                'account_id' => $request->fromAccount['id'],
-                'amount' => $request->amount,
-                'reason' => $debitReason,
-                'type' => 0,
+                'account_id'       => $fromAccountData['id'],
+                'amount'           => $amount,                   // se debita el valor "original"
+                'reason'           => $debitReason,
+                'type'             => 0,                         // 0 = débito
                 'transaction_date' => $request->date,
-                'created_by' => $userId,
-                'status' => $request->status,
+                'created_by'       => $userId,
+                'status'           => $request->status,
             ]);
 
-            $toAccountNumber = $request->toAccount['accountNumber'];
-            $creditReason = "Balance transfer to [$toAccountNumber]";
-            // store credit transaction
+            // 4. Transacción de crédito en cuenta destino
+            $creditReason = "Transferencia balance destino [{$toAccountData['accountNumber']}]";
             $creditTransaction = AccountTransaction::create([
-                'account_id' => $request->toAccount['id'],
-                'amount' => $request->amount,
-                'reason' => $creditReason,
-                'type' => 1,
+                'account_id'       => $toAccountData['id'],
+                'amount'           => $receivedAmount,           // se acredita el valor recibido
+                'reason'           => $creditReason,
+                'type'             => 1,                         // 1 = crédito
                 'transaction_date' => $request->date,
-                'created_by' => $userId,
-                'status' => $request->status,
+                'created_by'       => $userId,
+                'status'           => $request->status,
             ]);
 
-            // create transfer
-            BalanceTansfer::create([
-                'reason' => $request->transferReason,
-                'debit_id' => $debitTransaction->id,
-                'credit_id' => $creditTransaction->id,
-                'amount' => $request->amount,
-                'date' => $request->date,
-                'note' => clean($request->note),
-                'status' => $request->status,
-                'created_by' => $userId,
-            ]);
 
-            return $this->responseWithSuccess('Transfer added successfully');
+            $transferData = [
+                'reason'         => $request->transferReason,
+                'debit_id'       => $debitTransaction->id,
+                'credit_id'      => $creditTransaction->id,
+                'amount'         => $amount,            // monto original
+                'date'           => $request->date,
+                'note'           => clean($request->note),
+                'status'         => $request->status,
+                'created_by'     => $userId,
+                'exchange_rate'  => $exchangeRate,      // tasa de cambio calculada
+                'received_amount' => $receivedAmount, // monto recibido
+            ];
+
+            BalanceTansfer::create($transferData);
+
+            return $this->responseWithSuccess('Transferencia creada exitosamente');
         } catch (Exception $e) {
             return $this->responseWithError($e->getMessage());
         }
@@ -128,7 +139,7 @@ class TransferBalanceController extends Controller
         $this->validate($request, [
             'transferReason' => 'required|string|max:255',
             'fromAccount' => 'required',
-            'amount' => 'required|numeric|min:1|max:'.$request->availableBalance,
+            'amount' => 'required|numeric|min:1|max:' . $request->availableBalance,
             'date' => 'nullable|date_format:Y-m-d',
             'note' => 'nullable|string|max:255',
         ]);
@@ -212,18 +223,18 @@ class TransferBalanceController extends Controller
         }
 
         $query->where(function ($query) use ($term) {
-            $query->where('reason', 'LIKE', '%'.$term.'%')
-                ->orWhere('amount', 'LIKE', '%'.$term.'%')
+            $query->where('reason', 'LIKE', '%' . $term . '%')
+                ->orWhere('amount', 'LIKE', '%' . $term . '%')
                 ->orWhereHas('debitTransaction', function ($newQuery) use ($term) {
                     $newQuery->whereHas('cashbookAccount', function ($newQuery) use ($term) {
-                        $newQuery->where('account_number', 'LIKE', '%'.$term.'%')
-                            ->orWhere('bank_name', 'LIKE', '%'.$term.'%');
+                        $newQuery->where('account_number', 'LIKE', '%' . $term . '%')
+                            ->orWhere('bank_name', 'LIKE', '%' . $term . '%');
                     });
                 })
                 ->orWhereHas('creditTransaction', function ($newQuery) use ($term) {
                     $newQuery->whereHas('cashbookAccount', function ($newQuery) use ($term) {
-                        $newQuery->where('account_number', 'LIKE', '%'.$term.'%')
-                            ->orWhere('bank_name', 'LIKE', '%'.$term.'%');
+                        $newQuery->where('account_number', 'LIKE', '%' . $term . '%')
+                            ->orWhere('bank_name', 'LIKE', '%' . $term . '%');
                     });
                 });
         });

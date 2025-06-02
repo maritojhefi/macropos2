@@ -16,7 +16,7 @@ class BalanceTansfer extends Model
      * @var array
      */
     protected $fillable = [
-        'reason', 'slug', 'debit_id', 'credit_id', 'amount', 'date', 'note', 'status', 'created_by',
+        'reason', 'slug', 'debit_id', 'credit_id', 'amount', 'date', 'note', 'status', 'created_by','exchange_rate','received_amount'
     ];
 
     /**
