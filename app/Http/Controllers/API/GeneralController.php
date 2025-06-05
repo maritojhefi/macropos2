@@ -20,7 +20,7 @@ class GeneralController extends Controller
     // define middleware
     public function __construct()
     {
-        $this->middleware('can:general-settings', ['only' => ['updateGeneralSettings']]);
+        // $this->middleware('can:general-settings', ['only' => ['updateGeneralSettings']]);
     }
 
     /**
